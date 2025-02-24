@@ -1552,7 +1552,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4700u"
+		(property "Value" "12000u"
 			(at 160.02 82.9309 0)
 			(effects
 				(font
@@ -1617,18 +1617,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8996508e-8986-4bd1-94d3-67c7f09a4d37")
 		(property "Reference" "T1"
-			(at 116.8527 76.2 0)
+			(at 116.332 75.438 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "220 ~ 15V:15V"
-			(at 116.8527 78.74 0)
+		(property "Value" "220Vac ~ 12Vac:12Vac"
+			(at 116.332 77.978 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1866,7 +1865,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4700u"
+		(property "Value" "12000u"
 			(at 160.02 90.5509 0)
 			(effects
 				(font

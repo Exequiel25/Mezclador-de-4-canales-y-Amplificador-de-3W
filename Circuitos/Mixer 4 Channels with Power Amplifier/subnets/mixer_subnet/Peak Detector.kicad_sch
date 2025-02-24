@@ -616,247 +616,6 @@
 				)
 			)
 		)
-		(symbol "Simulation_SPICE:NPN"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at -2.54 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "NPN"
-				(at -2.54 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 63.5 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-				(at 63.5 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "NPN"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Type" "GUMMELPOON"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=C 2=B 3=E"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "simulation"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NPN_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 0.635 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -1.27) (xy 2.794 -1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -1.27) (xy 2.794 -1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "NPN_1_1"
-				(pin open_collector line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_emitter line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Simulation_SPICE:OPAMP"
 			(pin_names
 				(offset 0.254)
@@ -1434,28 +1193,10 @@
 		(uuid "7af90fc7-6c87-461c-b227-ee950efbada6")
 	)
 	(junction
-		(at 170.18 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7da3cb68-ee16-4878-a5dc-d39414988932")
-	)
-	(junction
-		(at 135.89 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a0e7914c-3ea5-4ead-8f94-5e3167ab6cf8")
-	)
-	(junction
 		(at 129.54 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c86582de-208c-4e5f-8d27-5d07d39d257d")
-	)
-	(junction
-		(at 123.19 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "da63a4e4-a52d-418c-b3f6-07588ee4a8cd")
 	)
 	(junction
 		(at 162.56 83.82)
@@ -1495,16 +1236,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 69.85) (xy 181.61 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1346ab9e-dbfe-411c-ae40-79c45023e5ae")
-	)
-	(wire
-		(pts
 			(xy 71.12 101.6) (xy 76.2 101.6)
 		)
 		(stroke
@@ -1512,16 +1243,6 @@
 			(type default)
 		)
 		(uuid "13708a76-ecd3-4bdd-8ce2-e5166c8983e3")
-	)
-	(wire
-		(pts
-			(xy 181.61 85.09) (xy 181.61 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14f7c1ce-5695-4b2f-878c-4d839c697c6b")
 	)
 	(wire
 		(pts
@@ -1585,7 +1306,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 102.87) (xy 170.18 105.41)
+			(xy 170.18 97.79) (xy 170.18 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1615,23 +1336,13 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 121.92) (xy 123.19 120.65)
+			(xy 123.19 116.84) (xy 123.19 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3d23103b-dd38-46a5-8dc2-23d20e03c427")
-	)
-	(wire
-		(pts
-			(xy 135.89 69.85) (xy 181.61 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e146e88-1c06-476d-88aa-9cece624ad51")
 	)
 	(wire
 		(pts
@@ -1672,26 +1383,6 @@
 			(type default)
 		)
 		(uuid "4c97c35e-2a0c-493c-b7ad-5a68951be83c")
-	)
-	(wire
-		(pts
-			(xy 181.61 107.95) (xy 181.61 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52e5c233-8297-47a5-b9bc-409ca5729811")
-	)
-	(wire
-		(pts
-			(xy 181.61 95.25) (xy 181.61 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a76f1c1-b678-4d84-8f53-a6c293e36c34")
 	)
 	(wire
 		(pts
@@ -1745,16 +1436,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 116.84) (xy 123.19 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65bfc53c-5adf-4cb9-a79e-cb104a200030")
-	)
-	(wire
-		(pts
 			(xy 130.81 81.28) (xy 129.54 81.28)
 		)
 		(stroke
@@ -1782,16 +1463,6 @@
 			(type default)
 		)
 		(uuid "7811ce05-4738-4e5a-85c5-f61c877abfbd")
-	)
-	(wire
-		(pts
-			(xy 123.19 120.65) (xy 135.89 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7890dbe6-3582-44b0-b12b-5c4a44928cd1")
 	)
 	(wire
 		(pts
@@ -1832,16 +1503,6 @@
 			(type default)
 		)
 		(uuid "93e0f646-29c3-49fb-ab84-133a69b2366f")
-	)
-	(wire
-		(pts
-			(xy 173.99 102.87) (xy 170.18 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5475cea-c6c1-4156-801f-24a0139afa1a")
 	)
 	(wire
 		(pts
@@ -1902,16 +1563,6 @@
 			(type default)
 		)
 		(uuid "ee4bf3ca-903d-4e9e-ad49-57ae68e94f38")
-	)
-	(wire
-		(pts
-			(xy 170.18 102.87) (xy 170.18 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f328854f-48bd-4bcb-b72e-38100ca2b685")
 	)
 	(wire
 		(pts
@@ -1978,116 +1629,6 @@
 		(uuid "de885161-21d2-4db8-bdad-0564082b452c")
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NPN")
-		(at 179.07 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0bbfc464-9f25-4b9a-ba5c-db2fd6ca8531")
-		(property "Reference" "Q?"
-			(at 184.15 101.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N2222"
-			(at 184.15 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 242.57 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 242.57 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
-			(at 179.07 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 179.07 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 179.07 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 179.07 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "24c72f25-ba1f-4d46-9bef-ddcc9c3538d6")
-		)
-		(pin "2"
-			(uuid "8ae9458b-df47-4627-a41f-f53263450d93")
-		)
-		(pin "1"
-			(uuid "f8e24e1e-826b-4bff-a805-9d2597f2e1d0")
-		)
-		(instances
-			(project ""
-				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144"
-					(reference "Q?")
-					(unit 1)
-				)
-				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/fbcd8a9d-c6bf-405f-a5fa-735132165dd8"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/15464fd7-4efb-41cb-956d-8afc44b1c436"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 170.18 118.11 0)
 		(unit 1)
@@ -2148,73 +1689,6 @@
 			(project "Mixer 4 Channels with Power Amplifier"
 				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/fbcd8a9d-c6bf-405f-a5fa-735132165dd8"
 					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-VDC")
-		(at 133.35 92.71 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2e394007-f182-4f47-baec-50fed6034506")
-		(property "Reference" "#PWR063"
-			(at 133.35 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-VDC"
-			(at 133.35 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.35 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-VDC\""
-			(at 133.35 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d8457b57-b43e-4959-b7cc-68247a904bff")
-		)
-		(instances
-			(project "Mixer 4 Channels with Power Amplifier"
-				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/fbcd8a9d-c6bf-405f-a5fa-735132165dd8"
-					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -2371,7 +1845,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.2k"
+		(property "Value" "120"
 			(at 124.714 98.806 0)
 			(effects
 				(font
@@ -2433,34 +1907,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 181.61 91.44 0)
+		(lib_id "power:GND")
+		(at 135.89 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3d655656-0b3d-4131-b8b6-6fd61922048a")
-		(property "Reference" "R?"
-			(at 183.134 91.44 0)
+		(fields_autoplaced yes)
+		(uuid "4530e6b0-0f29-4cb3-9c73-2e1bc6705266")
+		(property "Reference" "#PWR01"
+			(at 135.89 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "150"
-			(at 183.134 93.472 0)
+		(property "Value" "GND"
+			(at 135.89 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 179.832 91.44 90)
+			(at 135.89 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2468,8 +1942,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 181.61 91.44 0)
+		(property "Datasheet" ""
+			(at 135.89 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2477,8 +1951,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 181.61 91.44 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2487,25 +1961,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "4176318e-7984-4306-b2de-204b1ae11a3b")
-		)
-		(pin "2"
-			(uuid "829c54b9-6ca3-4c6f-bfbf-5ed8a82ab601")
+			(uuid "b64fb75f-5147-46a6-8ebd-2db38bfee4ef")
 		)
 		(instances
-			(project "Mezclador de Audio"
-				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144"
-					(reference "R?")
-					(unit 1)
-				)
+			(project "Mixer 4 Channels with Power Amplifier"
 				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/fbcd8a9d-c6bf-405f-a5fa-735132165dd8"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-			(project "Mezclador de Audio"
-				(path "/15464fd7-4efb-41cb-956d-8afc44b1c436"
-					(reference "R6")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -2994,7 +2455,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1.5k"
 			(at 124.714 115.062 0)
 			(effects
 				(font
@@ -3249,85 +2710,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 170.18 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bab6b938-faa1-4369-b137-d71216f2025a")
-		(property "Reference" "R?"
-			(at 171.704 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 171.704 111.252 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.402 109.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 170.18 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 170.18 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cdb7f829-7c05-412a-ac6d-fedb1c9a51d6")
-		)
-		(pin "2"
-			(uuid "4c0d0e2e-9722-4b02-8db1-fc9f2836e1b3")
-		)
-		(instances
-			(project "Mezclador de Audio"
-				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/fbcd8a9d-c6bf-405f-a5fa-735132165dd8"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-			(project "Mezclador de Audio"
-				(path "/15464fd7-4efb-41cb-956d-8afc44b1c436"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 123.19 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3344,7 +2726,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1.5k"
 			(at 124.714 77.978 0)
 			(effects
 				(font
@@ -3400,72 +2782,6 @@
 			(project "Mezclador de Audio"
 				(path "/15464fd7-4efb-41cb-956d-8afc44b1c436"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 181.61 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c52b3d0b-3a94-4469-8970-e1d5bea218af")
-		(property "Reference" "#PWR026"
-			(at 181.61 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 181.61 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 181.61 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4b9bc367-0dcc-4a99-9db4-b04c6c7d1a40")
-		)
-		(instances
-			(project "Mixer 4 Channels with Power Amplifier"
-				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/fbcd8a9d-c6bf-405f-a5fa-735132165dd8"
-					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -3533,6 +2849,72 @@
 			(project "Mixer 4 Channels with Power Amplifier"
 				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/fbcd8a9d-c6bf-405f-a5fa-735132165dd8"
 					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 133.35 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbb5d2fd-e1c7-43a0-b803-cbdbe5d65339")
+		(property "Reference" "#PWR02"
+			(at 133.35 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 133.35 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f5045cc-9f71-4964-ae2b-d5c350b17503")
+		)
+		(instances
+			(project "Mixer 4 Channels with Power Amplifier"
+				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/fbcd8a9d-c6bf-405f-a5fa-735132165dd8"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -3749,7 +3131,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 181.61 81.28 90)
+		(at 170.18 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3758,7 +3140,7 @@
 		(fields_autoplaced yes)
 		(uuid "f5ce69c4-e1d6-4a36-939e-0f978c176641")
 		(property "Reference" "D?"
-			(at 185.42 81.5974 90)
+			(at 173.99 109.5374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3768,7 +3150,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 185.42 84.1374 90)
+			(at 173.99 112.0774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3777,7 +3159,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 81.28 0)
+			(at 170.18 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3786,7 +3168,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 181.61 81.28 0)
+			(at 170.18 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3795,7 +3177,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 181.61 81.28 0)
+			(at 170.18 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)

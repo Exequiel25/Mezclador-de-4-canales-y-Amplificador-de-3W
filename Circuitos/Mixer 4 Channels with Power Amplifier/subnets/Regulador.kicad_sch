@@ -752,7 +752,7 @@
 				)
 			)
 		)
-		(symbol "Regulator_Linear:LM7815_TO220"
+		(symbol "Regulator_Linear:L7812"
 			(pin_names
 				(offset 0.254)
 			)
@@ -767,7 +767,7 @@
 					)
 				)
 			)
-			(property "Value" "LM7815_TO220"
+			(property "Value" "L7812"
 				(at 0 3.175 0)
 				(effects
 					(font
@@ -776,17 +776,18 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-				(at 0 5.715 0)
+			(property "Footprint" ""
+				(at 0.635 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(italic yes)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF"
+			(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf"
 				(at 0 -1.27 0)
 				(effects
 					(font
@@ -795,7 +796,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Positive 1A 35V Linear Regulator, Fixed Output 15V, TO-220"
+			(property "Description" "Positive 1.5A 35V Linear Regulator, Fixed Output 12V, TO-220/TO-263/TO-252"
 				(at 0 0 0)
 				(effects
 					(font
@@ -804,7 +805,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Voltage Regulator 1A Positive"
+			(property "ki_keywords" "Voltage Regulator 1.5A Positive"
 				(at 0 0 0)
 				(effects
 					(font
@@ -813,7 +814,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?220*"
+			(property "ki_fp_filters" "TO?252* TO?263* TO?220*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -822,7 +823,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LM7815_TO220_0_1"
+			(symbol "L7812_0_1"
 				(rectangle
 					(start -5.08 1.905)
 					(end 5.08 -5.08)
@@ -835,11 +836,11 @@
 					)
 				)
 			)
-			(symbol "LM7815_TO220_1_1"
+			(symbol "L7812_1_1"
 				(pin power_in line
 					(at -7.62 0 0)
 					(length 2.54)
-					(name "VI"
+					(name "IN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -875,7 +876,7 @@
 				(pin power_out line
 					(at 7.62 0 180)
 					(length 2.54)
-					(name "VO"
+					(name "OUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -892,7 +893,7 @@
 				)
 			)
 		)
-		(symbol "Regulator_Linear:LM7915_TO220"
+		(symbol "Regulator_Linear:L7912"
 			(pin_names
 				(offset 0.254)
 			)
@@ -907,7 +908,7 @@
 					)
 				)
 			)
-			(property "Value" "LM7915_TO220"
+			(property "Value" "L7912"
 				(at 0 -3.175 0)
 				(effects
 					(font
@@ -916,7 +917,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(property "Footprint" ""
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -926,7 +927,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MC7900-D.PDF"
+			(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/c9/16/86/41/c7/2b/45/f2/CD00000450.pdf/files/CD00000450.pdf/jcr:content/translations/en.CD00000450.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -935,7 +936,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Negative 1A 35V Linear Regulator, Fixed Output 15V, TO-220"
+			(property "Description" "Negative 1.5A 35V Linear Regulator, Fixed Output -12V, TO-220/TO-263"
 				(at 0 0 0)
 				(effects
 					(font
@@ -944,7 +945,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Voltage Regulator 1A Negative"
+			(property "ki_keywords" "Voltage Regulator 1.5A Negative"
 				(at 0 0 0)
 				(effects
 					(font
@@ -953,7 +954,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?220*"
+			(property "ki_fp_filters" "TO?220* TO?263*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -962,7 +963,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LM7915_TO220_0_1"
+			(symbol "L7912_0_1"
 				(rectangle
 					(start -5.08 5.08)
 					(end 5.08 -1.905)
@@ -975,7 +976,7 @@
 					)
 				)
 			)
-			(symbol "LM7915_TO220_1_1"
+			(symbol "L7912_1_1"
 				(pin power_in line
 					(at 0 7.62 270)
 					(length 2.54)
@@ -1874,85 +1875,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:LM7815_TO220")
-		(at 138.43 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "30c970be-7270-4564-8458-e8fc7b5eaf7c")
-		(property "Reference" "U1"
-			(at 138.43 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM7815_TO220"
-			(at 138.43 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 138.43 71.755 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF"
-			(at 138.43 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Positive 1A 35V Linear Regulator, Fixed Output 15V, TO-220"
-			(at 138.43 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "ed10695a-73f3-4d61-bf80-1da4903e7249")
-		)
-		(pin "1"
-			(uuid "4dfe6bd3-c316-4a54-913d-f11c92b7b4a0")
-		)
-		(pin "2"
-			(uuid "7c03e479-37bc-4074-a4d2-d2e969fb8930")
-		)
-		(instances
-			(project ""
-				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/45245042-332e-4026-9c47-78a1402474c5"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/73474962-19a7-474c-a8ee-89a8e49ddff8"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:LM7915_TO220")
+		(lib_id "Regulator_Linear:L7912")
 		(at 138.43 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1960,8 +1883,17 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "341a031c-2262-4cde-bfe3-80fa10fb8350")
-		(property "Reference" "U2"
+		(uuid "2e7a06cb-e2e5-47a3-90be-2018595c1010")
+		(property "Reference" "U14"
+			(at 138.43 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "L7912"
 			(at 138.43 116.84 0)
 			(effects
 				(font
@@ -1969,15 +1901,7 @@
 				)
 			)
 		)
-		(property "Value" "LM7915_TO220"
-			(at 138.43 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(property "Footprint" ""
 			(at 138.43 118.11 0)
 			(effects
 				(font
@@ -1987,7 +1911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MC7900-D.PDF"
+		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/c9/16/86/41/c7/2b/45/f2/CD00000450.pdf/files/CD00000450.pdf/jcr:content/translations/en.CD00000450.pdf"
 			(at 138.43 113.03 0)
 			(effects
 				(font
@@ -1996,7 +1920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Negative 1A 35V Linear Regulator, Fixed Output 15V, TO-220"
+		(property "Description" "Negative 1.5A 35V Linear Regulator, Fixed Output -12V, TO-220/TO-263"
 			(at 138.43 113.03 0)
 			(effects
 				(font
@@ -2004,26 +1928,20 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "a482b8c8-1ca5-4825-abff-5ad493c28a6e")
 		)
 		(pin "1"
-			(uuid "214f62b7-489c-4a89-af5b-6ffda0af2d65")
+			(uuid "8c694679-098e-4ab7-b934-9a4a7b54a213")
+		)
+		(pin "2"
+			(uuid "60a86314-b1df-415e-be13-a92c170d8136")
 		)
 		(pin "3"
-			(uuid "5187915c-2812-4e3a-8232-a6a306c621fc")
+			(uuid "9d9c1065-b2fd-45b9-a52b-6b874ae874dd")
 		)
 		(instances
 			(project ""
 				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/45245042-332e-4026-9c47-78a1402474c5"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/73474962-19a7-474c-a8ee-89a8e49ddff8"
-					(reference "U2")
+					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -2117,7 +2035,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "820"
+		(property "Value" "680"
 			(at 115.57 101.5999 0)
 			(effects
 				(font
@@ -2244,6 +2162,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:L7812")
+		(at 138.43 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fd9259e-9679-4193-817c-a04cb97d6903")
+		(property "Reference" "U13"
+			(at 138.43 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "L7812"
+			(at 138.43 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.065 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf"
+			(at 138.43 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Positive 1.5A 35V Linear Regulator, Fixed Output 12V, TO-220/TO-263/TO-252"
+			(at 138.43 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "094044d0-f1f1-4b35-90cc-133c5dfb0247")
+		)
+		(pin "1"
+			(uuid "1196e92a-861e-4930-b2b5-d459ee366e9f")
+		)
+		(pin "3"
+			(uuid "9d78d816-3a01-49cc-b20b-2b9185f34414")
+		)
+		(instances
+			(project ""
+				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/45245042-332e-4026-9c47-78a1402474c5"
+					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 113.03 82.55 0)
 		(unit 1)
@@ -2262,7 +2254,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "820"
+		(property "Value" "680"
 			(at 115.57 83.8199 0)
 			(effects
 				(font

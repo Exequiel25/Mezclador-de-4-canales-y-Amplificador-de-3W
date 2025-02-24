@@ -420,6 +420,167 @@
 				)
 			)
 		)
+		(symbol "Device:R_Potentiometer"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Potentiometer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor variable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Potentiometer_0_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Simulation_SPICE:OPAMP"
 			(pin_names
 				(offset 0.254)
@@ -616,6 +777,543 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Transistor_BJT:BC327"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BC327"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/BC327-D.PDF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.8A Ic, 45V Vce, PNP Transistor, TO-92"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "PNP Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?92*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BC327_0_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778) (xy 2.286 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BC327_1_1"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.715)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Transistor_BJT:BC337"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BC337"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, TO-92"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NPN Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?92*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BC337_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BC337_1_1"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -973,74 +1671,332 @@
 		)
 	)
 	(junction
-		(at 157.48 104.14)
+		(at 226.06 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "64c73fe1-3d7c-4858-a016-321c844cd659")
+		(uuid "0905712e-9226-430b-bc86-9eb0a072047e")
 	)
 	(junction
-		(at 106.68 101.6)
+		(at 90.17 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "73df5fd8-8dea-4e01-a892-5d49e042b0c8")
+		(uuid "09c8b0ce-9cc7-49a9-9739-6667ddcbd38c")
 	)
 	(junction
-		(at 101.6 101.6)
+		(at 184.15 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8d3e6a64-0210-44df-8411-962755ed8b97")
+		(uuid "11529e7a-67cd-472f-adf1-728367f33ef4")
 	)
 	(junction
-		(at 147.32 104.14)
+		(at 163.83 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e0bdc153-e438-4919-bb01-10b808d7733a")
+		(uuid "1a11b17c-c73b-4c6d-86fd-0c4c6de62b40")
 	)
 	(junction
-		(at 129.54 114.3)
+		(at 209.55 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f44d0b56-ffda-486e-a01a-3338a9ae6661")
+		(uuid "1afc33fc-c0c2-44bc-ad4f-1655466f5af4")
 	)
 	(junction
-		(at 106.68 114.3)
+		(at 209.55 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fac94c73-10f7-47ed-8dcf-679b19a07ba5")
+		(uuid "359a6696-3d79-437b-9863-807986905aed")
+	)
+	(junction
+		(at 209.55 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4150222e-3fbe-4ede-bb35-d9c439d74d6f")
+	)
+	(junction
+		(at 163.83 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43413a4a-2f1a-4fcc-8933-067783fc2cc8")
+	)
+	(junction
+		(at 143.51 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53e16884-b801-409a-8ec1-eef9c700f30c")
+	)
+	(junction
+		(at 157.48 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b258fa6-0054-4ba9-ac21-f28a292082ae")
+	)
+	(junction
+		(at 157.48 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5cdd3bca-1371-47e5-b9f9-7c639093ce79")
+	)
+	(junction
+		(at 168.91 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65c31ec0-88ba-494c-8ea0-f790db688377")
+	)
+	(junction
+		(at 90.17 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66d494b1-6366-4990-b236-06ce844c8fe3")
+	)
+	(junction
+		(at 146.05 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c71e7d4-092b-47b8-b73a-039501ab038b")
+	)
+	(junction
+		(at 226.06 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72f889d7-d0c7-41cc-9163-cec29d51238b")
+	)
+	(junction
+		(at 209.55 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73b05e32-38a7-4a15-8406-5442a7462a76")
+	)
+	(junction
+		(at 209.55 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e90a0f0-5b79-414f-90f5-da28a6fbd7d2")
+	)
+	(junction
+		(at 184.15 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "844c2d81-837a-4632-8246-6fd2ffc5e506")
+	)
+	(junction
+		(at 209.55 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86b92689-b79a-4892-8907-08ba688d2ffd")
+	)
+	(junction
+		(at 143.51 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "891883d5-8e16-449a-aa37-901ba4505fd3")
+	)
+	(junction
+		(at 209.55 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89254a84-68aa-474c-8481-a90df0e3dcd7")
+	)
+	(junction
+		(at 168.91 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98bc06ad-b902-46d0-896d-6c76d2f33436")
+	)
+	(junction
+		(at 93.98 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3060e1f-aefb-4eb7-b279-e5de77dec4db")
+	)
+	(junction
+		(at 189.23 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b32a7f83-1ae6-454c-b1ff-86faa383ab73")
+	)
+	(junction
+		(at 226.06 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3a0aaba-2f62-4a2d-8029-f0ddac8324e5")
+	)
+	(junction
+		(at 146.05 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c45655fe-9665-44c6-a043-3c6eae9eede2")
+	)
+	(junction
+		(at 199.39 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2e7853e-e162-4ff1-a9a7-f8eab27994a9")
+	)
+	(junction
+		(at 129.54 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6fcac58-6bb4-4dbe-99b6-3c3e28824695")
+	)
+	(junction
+		(at 116.84 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3033481-c32f-46fb-93ed-f12e4f9ded5c")
+	)
+	(junction
+		(at 189.23 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e33a0dde-9162-4a00-a044-89bc518773f0")
+	)
+	(junction
+		(at 110.49 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ebb56f2e-1b07-4f56-b265-0ff86d51e438")
+	)
+	(junction
+		(at 90.17 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efae576c-8be5-46cd-8172-419e6a7be0a1")
+	)
+	(junction
+		(at 199.39 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f873dffc-f55c-480a-883a-a4a93ae382c4")
+	)
+	(junction
+		(at 153.67 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff3d1e3b-9bcf-4f0a-ae1d-7fd929509409")
 	)
 	(wire
 		(pts
-			(xy 106.68 101.6) (xy 101.6 101.6)
+			(xy 168.91 115.57) (xy 168.91 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0012ee05-471d-4d1a-868e-82c577343403")
+		(uuid "047fa1ef-7d83-4be6-96a8-ff96e5f00f2c")
 	)
 	(wire
 		(pts
-			(xy 168.91 104.14) (xy 171.45 104.14)
+			(xy 189.23 53.34) (xy 209.55 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "06dfe363-b951-472d-a88f-a0c517676543")
+		(uuid "049b8d08-a8f4-4b2f-9950-446bee0a4f5c")
 	)
 	(wire
 		(pts
-			(xy 157.48 120.65) (xy 157.48 124.46)
+			(xy 157.48 86.36) (xy 157.48 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "115a607d-9485-42b9-94ef-aac7ca8af322")
+		(uuid "06b4c6a7-5eb6-499e-bc10-d6d1593a50bf")
 	)
 	(wire
 		(pts
-			(xy 58.42 95.25) (xy 63.5 95.25)
+			(xy 153.67 72.39) (xy 143.51 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c402cdf-96f6-45bc-98dd-3e329bb7632a")
+	)
+	(wire
+		(pts
+			(xy 168.91 95.25) (xy 168.91 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e268124-499c-497f-927a-e7eb79c27dc9")
+	)
+	(wire
+		(pts
+			(xy 199.39 120.65) (xy 201.93 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fb71270-8db5-40d4-9cbe-7ee607950495")
+	)
+	(wire
+		(pts
+			(xy 163.83 72.39) (xy 163.83 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13341281-92bc-49da-b458-86b624d3d419")
+	)
+	(wire
+		(pts
+			(xy 196.85 62.23) (xy 199.39 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15264ae0-b176-4dab-bfec-2c553244d334")
+	)
+	(wire
+		(pts
+			(xy 196.85 68.58) (xy 189.23 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18461019-b79e-4e5b-923c-8f1f4e5433f8")
+	)
+	(wire
+		(pts
+			(xy 176.53 113.03) (xy 146.05 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19303007-5d25-4986-8192-eff79458d328")
+	)
+	(wire
+		(pts
+			(xy 200.66 88.9) (xy 201.93 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c5387c4-fa14-4c08-90c1-387347345ebf")
+	)
+	(wire
+		(pts
+			(xy 226.06 115.57) (xy 226.06 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dad12c7-82b0-4259-8d7a-7c2410a811da")
+	)
+	(wire
+		(pts
+			(xy 38.1 87.63) (xy 43.18 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1050,7 +2006,27 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 99.06) (xy 63.5 99.06)
+			(xy 168.91 107.95) (xy 168.91 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e8d6baf-36d6-4dfc-961b-a807f8335adb")
+	)
+	(wire
+		(pts
+			(xy 196.85 85.09) (xy 196.85 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f6fec68-0cd8-49fd-b3fd-3b90bb99c861")
+	)
+	(wire
+		(pts
+			(xy 38.1 91.44) (xy 43.18 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1060,27 +2036,127 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 111.76) (xy 106.68 114.3)
+			(xy 199.39 120.65) (xy 199.39 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3613c056-2aee-4352-8e09-771a847c89bf")
+		(uuid "2350ec30-be48-4ddd-9e98-7329886cf7ed")
 	)
 	(wire
 		(pts
-			(xy 129.54 106.68) (xy 129.54 114.3)
+			(xy 163.83 53.34) (xy 163.83 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "37727c01-6520-4a79-b27a-088ae0cc68ac")
+		(uuid "24087f86-86ab-475d-952d-c5e0ee9347d9")
 	)
 	(wire
 		(pts
-			(xy 58.42 107.95) (xy 63.5 107.95)
+			(xy 196.85 92.71) (xy 196.85 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "282c4851-ab04-45ee-bb50-0198f525eda3")
+	)
+	(wire
+		(pts
+			(xy 63.5 105.41) (xy 67.31 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bd58a08-6138-40c6-9b46-9836345547f6")
+	)
+	(wire
+		(pts
+			(xy 157.48 123.19) (xy 161.29 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c8856ba-8932-43b6-843f-c2e99994f056")
+	)
+	(wire
+		(pts
+			(xy 153.67 123.19) (xy 157.48 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ea1f65a-c562-408f-8b23-f64021074098")
+	)
+	(wire
+		(pts
+			(xy 209.55 67.31) (xy 209.55 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ef3d2bc-ba10-4e99-bc8b-940aab11e3ee")
+	)
+	(wire
+		(pts
+			(xy 209.55 82.55) (xy 209.55 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3059a615-8111-46d7-9a10-fddc4876c157")
+	)
+	(wire
+		(pts
+			(xy 156.21 77.47) (xy 153.67 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3141c938-5ebc-497d-8fc7-0a92c81b1927")
+	)
+	(wire
+		(pts
+			(xy 163.83 53.34) (xy 189.23 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32176414-1617-41fa-b118-09b500a1243b")
+	)
+	(wire
+		(pts
+			(xy 208.28 110.49) (xy 209.55 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32c579cb-6e13-48fd-8e6f-702e47d275ac")
+	)
+	(wire
+		(pts
+			(xy 100.33 105.41) (xy 93.98 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33c1a627-dfa2-4d83-88b3-61553ee7d36e")
+	)
+	(wire
+		(pts
+			(xy 38.1 100.33) (xy 43.18 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1090,77 +2166,197 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 104.14) (xy 147.32 114.3)
+			(xy 250.19 95.25) (xy 242.57 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3890a22e-4779-47e4-aadd-ecd12ff313e8")
+		(uuid "42011002-4798-4568-acd7-7107498e11d6")
 	)
 	(wire
 		(pts
-			(xy 135.89 88.9) (xy 135.89 96.52)
+			(xy 189.23 69.85) (xy 189.23 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "458ee3f2-f5e8-4809-8f3f-3e55ef08b2b3")
+		(uuid "46fca710-c15f-4579-b26e-3f0e73a5ca44")
 	)
 	(wire
 		(pts
-			(xy 101.6 101.6) (xy 101.6 104.14)
+			(xy 163.83 82.55) (xy 163.83 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "490d82fe-eb58-4f1c-ad5b-1981dae01331")
+		(uuid "47412cbe-0772-4975-9021-365214a83ab1")
 	)
 	(wire
 		(pts
-			(xy 147.32 104.14) (xy 146.05 104.14)
+			(xy 209.55 68.58) (xy 199.39 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5689393c-4a64-4e68-b7b8-86ac0da18fdf")
+		(uuid "4755f253-fba1-4a28-96eb-919675bd87d3")
 	)
 	(wire
 		(pts
-			(xy 106.68 114.3) (xy 106.68 129.54)
+			(xy 218.44 95.25) (xy 226.06 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5e968a94-8d34-41f2-9994-249d345c50a4")
+		(uuid "48fc1027-e133-4843-8a94-05af5c0befea")
 	)
 	(wire
 		(pts
-			(xy 125.73 101.6) (xy 130.81 101.6)
+			(xy 196.85 74.93) (xy 196.85 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "65d73599-6d92-4221-bfc8-658dcaae46ad")
+		(uuid "49460604-a9db-4a24-bcc0-895e9497721d")
 	)
 	(wire
 		(pts
-			(xy 123.19 114.3) (xy 129.54 114.3)
+			(xy 119.38 102.87) (xy 116.84 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "66a44f6b-e877-4189-8ab7-987db0a5801a")
+		(uuid "4a30a366-430a-47b2-ad98-60900155b777")
 	)
 	(wire
 		(pts
-			(xy 63.5 107.95) (xy 63.5 109.22)
+			(xy 153.67 72.39) (xy 153.67 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d15cccf-91be-4d9b-b0f5-625dd9e3c66f")
+	)
+	(wire
+		(pts
+			(xy 104.14 123.19) (xy 104.14 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d33abea-96b4-4a10-953c-a7dbdcdebdb5")
+	)
+	(wire
+		(pts
+			(xy 116.84 127) (xy 116.84 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d43446e-1bee-48fb-8d91-503ec398d35f")
+	)
+	(wire
+		(pts
+			(xy 127 102.87) (xy 129.54 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e4f0e6a-2b35-44d1-a309-2febb6efde8b")
+	)
+	(wire
+		(pts
+			(xy 209.55 80.01) (xy 209.55 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5131153c-80d0-4c26-bdc8-04fc4866f0c4")
+	)
+	(wire
+		(pts
+			(xy 189.23 67.31) (xy 189.23 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5292885b-14dc-4de1-8d99-ba659a08a64c")
+	)
+	(wire
+		(pts
+			(xy 93.98 105.41) (xy 93.98 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5407c6ca-1494-4bc9-80f1-0c9a966f04ea")
+	)
+	(wire
+		(pts
+			(xy 63.5 115.57) (xy 67.31 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "553be177-7800-4ace-9078-d49c95b895e9")
+	)
+	(wire
+		(pts
+			(xy 157.48 115.57) (xy 168.91 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56de2cfb-5951-47db-b5a0-d6ef10a5e31f")
+	)
+	(wire
+		(pts
+			(xy 176.53 123.19) (xy 176.53 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6189795a-f29b-4486-b4e4-995f54056ced")
+	)
+	(wire
+		(pts
+			(xy 93.98 127) (xy 93.98 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62540450-f97d-4c46-8273-1a9caa8355dc")
+	)
+	(wire
+		(pts
+			(xy 129.54 72.39) (xy 129.54 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64e326f2-040b-4032-b227-6c778e328fd3")
+	)
+	(wire
+		(pts
+			(xy 43.18 100.33) (xy 43.18 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1170,47 +2366,327 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 101.6) (xy 82.55 101.6)
+			(xy 105.41 110.49) (xy 105.41 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "896fca91-d7bf-41de-b84c-9ba9371fb643")
+		(uuid "68349c69-05c1-4223-ba66-0d85a60a6c01")
 	)
 	(wire
 		(pts
-			(xy 107.95 114.3) (xy 106.68 114.3)
+			(xy 129.54 120.65) (xy 129.54 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "90b62925-39ed-4b8b-89da-8438145e9bab")
+		(uuid "6aeeb059-1607-4c0f-8021-69b9bbbb029a")
 	)
 	(wire
 		(pts
-			(xy 135.89 111.76) (xy 135.89 130.81)
+			(xy 196.85 82.55) (xy 209.55 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "95395c4e-ee74-4eca-96be-f918e1c94131")
+		(uuid "6e755222-cd13-4b92-ac71-c1fdf1193067")
 	)
 	(wire
 		(pts
-			(xy 90.17 101.6) (xy 91.44 101.6)
+			(xy 163.83 86.36) (xy 157.48 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9af48721-ea8d-48da-81cb-e106f8eb8604")
+		(uuid "6f42677e-a521-47e2-a2bd-08ac8c7c0064")
 	)
 	(wire
 		(pts
-			(xy 63.5 99.06) (xy 63.5 100.33)
+			(xy 90.17 105.41) (xy 90.17 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ffe532b-5aaa-4a9c-beff-8176e6251f44")
+	)
+	(wire
+		(pts
+			(xy 146.05 97.79) (xy 146.05 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7030069f-6df0-4fab-823d-07d96100edbe")
+	)
+	(wire
+		(pts
+			(xy 200.66 110.49) (xy 199.39 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7303745a-ca22-4e23-b3f3-eba4438efc5e")
+	)
+	(wire
+		(pts
+			(xy 184.15 104.14) (xy 184.15 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7372e7a5-e815-491b-823d-ae143bd3f2e2")
+	)
+	(wire
+		(pts
+			(xy 226.06 95.25) (xy 226.06 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "744e1ddb-e900-4b7e-935e-016c0a85f0ef")
+	)
+	(wire
+		(pts
+			(xy 196.85 95.25) (xy 209.55 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74f63c39-3462-4e76-8281-5f126c1be2a9")
+	)
+	(wire
+		(pts
+			(xy 199.39 68.58) (xy 199.39 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "763a4ef4-47cf-496a-a67e-96b89e8900f8")
+	)
+	(wire
+		(pts
+			(xy 184.15 130.81) (xy 168.91 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ab94371-625d-4255-96ea-70b14ea815fc")
+	)
+	(wire
+		(pts
+			(xy 77.47 100.33) (xy 80.01 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cf15efd-208c-4cbd-bb9b-6e70d8fc0c3d")
+	)
+	(wire
+		(pts
+			(xy 143.51 72.39) (xy 143.51 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7df4a2b0-09a0-4119-b757-1f6b1c548813")
+	)
+	(wire
+		(pts
+			(xy 63.5 110.49) (xy 67.31 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e9051b6-4528-47ac-b42f-abf5841e690c")
+	)
+	(wire
+		(pts
+			(xy 153.67 62.23) (xy 156.21 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f6fe436-eba3-492f-9e09-03ffcb5bbb5e")
+	)
+	(wire
+		(pts
+			(xy 226.06 93.98) (xy 226.06 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82e2231c-0be2-4245-8992-d7b5f47590df")
+	)
+	(wire
+		(pts
+			(xy 151.13 62.23) (xy 153.67 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82fa2176-82fd-4c40-b05a-dffd8cc8b61d")
+	)
+	(wire
+		(pts
+			(xy 129.54 53.34) (xy 143.51 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84a56694-067d-44e2-bc08-cbdbd61306c3")
+	)
+	(wire
+		(pts
+			(xy 209.55 68.58) (xy 209.55 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "865ec973-a8fe-4272-9489-ef9c48e4b40e")
+	)
+	(wire
+		(pts
+			(xy 77.47 115.57) (xy 80.01 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8715e915-ea1e-40c8-98da-af640362bd1d")
+	)
+	(wire
+		(pts
+			(xy 209.55 53.34) (xy 226.06 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87739a58-9474-4892-91a6-687f27265773")
+	)
+	(wire
+		(pts
+			(xy 77.47 105.41) (xy 80.01 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c6d9048-fa55-4e75-95fe-a06b56eaf5e0")
+	)
+	(wire
+		(pts
+			(xy 226.06 85.09) (xy 226.06 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d8376f8-bb73-49f6-bd66-e872fb48cda1")
+	)
+	(wire
+		(pts
+			(xy 104.14 121.92) (xy 110.49 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f736232-f2e6-40f9-8a30-c89817258c7e")
+	)
+	(wire
+		(pts
+			(xy 146.05 107.95) (xy 146.05 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fcc968a-5594-4593-b504-daf514972a82")
+	)
+	(wire
+		(pts
+			(xy 157.48 123.19) (xy 157.48 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "912a9d27-d4d0-4b57-b04d-e7f5fc3b10ef")
+	)
+	(wire
+		(pts
+			(xy 146.05 128.27) (xy 146.05 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94722850-595f-4754-a9f0-a8da0c79ea78")
+	)
+	(wire
+		(pts
+			(xy 129.54 102.87) (xy 138.43 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "973ff74b-05ac-46cd-963e-c9a8f22a2b5c")
+	)
+	(wire
+		(pts
+			(xy 93.98 127) (xy 100.33 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "985ff373-6734-4b25-9cc5-f4bdd9a9acbc")
+	)
+	(wire
+		(pts
+			(xy 226.06 130.81) (xy 226.06 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c74c169-3a7d-471f-9469-027b2c2c7236")
+	)
+	(wire
+		(pts
+			(xy 199.39 62.23) (xy 201.93 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d6bfd46-1104-496f-abba-66488ce6609d")
+	)
+	(wire
+		(pts
+			(xy 43.18 91.44) (xy 43.18 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1220,17 +2696,327 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 101.6) (xy 101.6 101.6)
+			(xy 209.55 125.73) (xy 209.55 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c2e814eb-3efc-4ea3-bab0-81a10b4b0e7b")
+		(uuid "9e1f95a8-3f9c-4b24-aaf4-a8b867c1ea18")
 	)
 	(wire
 		(pts
-			(xy 63.5 95.25) (xy 63.5 93.98)
+			(xy 110.49 127) (xy 116.84 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f7007d4-5f29-4935-a04a-a24c97d6e1ee")
+	)
+	(wire
+		(pts
+			(xy 184.15 111.76) (xy 184.15 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f987864-9d8d-4f7d-a1a0-78c12ed38276")
+	)
+	(wire
+		(pts
+			(xy 209.55 130.81) (xy 184.15 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fb670ec-82af-4225-ab90-6b800e62fa75")
+	)
+	(wire
+		(pts
+			(xy 226.06 52.07) (xy 226.06 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1579eb7-432e-4f01-85b8-3d0ab94f0102")
+	)
+	(wire
+		(pts
+			(xy 163.83 69.85) (xy 163.83 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3642b5d-d06e-4f12-a978-9ff94da3f747")
+	)
+	(wire
+		(pts
+			(xy 129.54 80.01) (xy 129.54 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a491f1ce-0e88-46bb-bee8-4b9e3328acc1")
+	)
+	(wire
+		(pts
+			(xy 87.63 105.41) (xy 90.17 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5f7d531-81a0-419a-9d14-748c0e75a5a1")
+	)
+	(wire
+		(pts
+			(xy 90.17 115.57) (xy 90.17 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a62a72aa-72e2-404f-a827-bb37857c2b81")
+	)
+	(wire
+		(pts
+			(xy 194.31 102.87) (xy 218.44 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7e213ef-2dae-40c4-851d-5aa6b6f6b3e6")
+	)
+	(wire
+		(pts
+			(xy 209.55 130.81) (xy 226.06 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a869b3d6-8a00-496e-918a-c045b87909e0")
+	)
+	(wire
+		(pts
+			(xy 63.5 100.33) (xy 67.31 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8afb58a-aa40-4b3e-97bd-8aa716651535")
+	)
+	(wire
+		(pts
+			(xy 157.48 95.25) (xy 168.91 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9609b90-1faf-45a8-848b-38c262238ebb")
+	)
+	(wire
+		(pts
+			(xy 143.51 82.55) (xy 143.51 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa26b0cf-c49a-4150-a689-378fee359456")
+	)
+	(wire
+		(pts
+			(xy 189.23 53.34) (xy 189.23 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa31d288-05b7-444e-9281-5d4d637db4f9")
+	)
+	(wire
+		(pts
+			(xy 110.49 121.92) (xy 110.49 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa7c3f29-30d5-4fd3-a3c3-552e0ed32d64")
+	)
+	(wire
+		(pts
+			(xy 218.44 110.49) (xy 209.55 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac78508b-d1fe-4c43-8964-785994eba820")
+	)
+	(wire
+		(pts
+			(xy 87.63 115.57) (xy 90.17 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac83aae9-b9fb-45a6-9736-e7ef7b8b98b6")
+	)
+	(wire
+		(pts
+			(xy 218.44 102.87) (xy 218.44 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeed2b4b-bc7b-4a9b-9d84-723e6359ff90")
+	)
+	(wire
+		(pts
+			(xy 226.06 105.41) (xy 226.06 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b154c286-9377-41ba-af21-99c54c0e3662")
+	)
+	(wire
+		(pts
+			(xy 226.06 53.34) (xy 226.06 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6168a04-433f-4f61-94fb-101a2d096511")
+	)
+	(wire
+		(pts
+			(xy 209.55 110.49) (xy 209.55 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b63b007d-a2df-4d27-a068-1127a1a43816")
+	)
+	(wire
+		(pts
+			(xy 146.05 95.25) (xy 157.48 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbeb2bc2-5264-4497-b8a1-b326092999fd")
+	)
+	(wire
+		(pts
+			(xy 199.39 110.49) (xy 199.39 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be98effb-1dc5-453d-bc8a-786f5822c45c")
+	)
+	(wire
+		(pts
+			(xy 184.15 120.65) (xy 184.15 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfaa7ce3-1197-4519-9b1d-52fd655156d2")
+	)
+	(wire
+		(pts
+			(xy 176.53 102.87) (xy 184.15 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2787868-a607-4636-bdc5-97de626cac20")
+	)
+	(wire
+		(pts
+			(xy 163.83 69.85) (xy 153.67 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6d287cd-0719-4b3c-906b-40859ef2da54")
+	)
+	(wire
+		(pts
+			(xy 115.57 102.87) (xy 116.84 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8744a46-ad2d-4c93-a1d6-075265add3a6")
+	)
+	(wire
+		(pts
+			(xy 107.95 127) (xy 110.49 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cab832d5-0689-461a-8b64-c822029aa999")
+	)
+	(wire
+		(pts
+			(xy 87.63 100.33) (xy 90.17 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cac295b7-49d3-44ed-9d72-745fc1206c11")
+	)
+	(wire
+		(pts
+			(xy 209.55 80.01) (xy 218.44 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccb77fb9-9bd7-4f7d-ad82-4165c6babc8f")
+	)
+	(wire
+		(pts
+			(xy 209.55 95.25) (xy 209.55 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccba45ac-4d14-456d-bfa1-6dcbc6cd8099")
+	)
+	(wire
+		(pts
+			(xy 43.18 87.63) (xy 43.18 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1240,97 +3026,227 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 101.6) (xy 118.11 101.6)
+			(xy 153.67 69.85) (xy 153.67 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "db478e7f-7885-4b5e-8f4a-34ae150613c4")
+		(uuid "cdd64693-862e-4ef8-b2a2-22d07b80b22b")
 	)
 	(wire
 		(pts
-			(xy 106.68 114.3) (xy 101.6 114.3)
+			(xy 129.54 130.81) (xy 146.05 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dee2205e-60a5-4277-805c-d7f291aef1fe")
+		(uuid "d10cbd2d-3293-44a2-8fe4-abef177b09ab")
 	)
 	(wire
 		(pts
-			(xy 157.48 104.14) (xy 157.48 105.41)
+			(xy 146.05 130.81) (xy 168.91 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e12ed55d-fd5b-4425-a595-e6038c576989")
+		(uuid "d32e805f-09d6-4848-b0fa-14cb52466403")
 	)
 	(wire
 		(pts
-			(xy 106.68 104.14) (xy 106.68 101.6)
+			(xy 189.23 78.74) (xy 189.23 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e6781ef9-2226-45bd-9245-a0e404ec05fb")
+		(uuid "d4703374-ad78-44cf-b733-5f1a9c39bbe9")
 	)
 	(wire
 		(pts
-			(xy 147.32 104.14) (xy 157.48 104.14)
+			(xy 87.63 110.49) (xy 90.17 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eb646536-6884-4898-804a-07ff0782660d")
+		(uuid "d646ee0f-8631-4165-aa16-31e16709d5bc")
 	)
 	(wire
 		(pts
-			(xy 130.81 106.68) (xy 129.54 106.68)
+			(xy 209.55 115.57) (xy 209.55 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ec88c8db-5482-4258-8727-41cb367dd467")
+		(uuid "d8cd73c5-e36c-4d6d-bce0-ee16dff7679f")
 	)
 	(wire
 		(pts
-			(xy 101.6 114.3) (xy 101.6 111.76)
+			(xy 143.51 67.31) (xy 143.51 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ed2784ad-d924-48c0-8991-a0c218f9282c")
+		(uuid "d969d650-a85f-46c3-a9e1-c06f881211ae")
 	)
 	(wire
 		(pts
-			(xy 157.48 104.14) (xy 161.29 104.14)
+			(xy 209.55 53.34) (xy 209.55 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f47c1198-e712-4b5b-8221-0b071d18a898")
+		(uuid "d998a01c-5fb4-4c67-a242-74f2cc853f54")
 	)
 	(wire
 		(pts
-			(xy 129.54 114.3) (xy 139.7 114.3)
+			(xy 143.51 53.34) (xy 143.51 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fb22828b-ce48-42e1-822c-2b59c62da0a0")
+		(uuid "dc18895b-d9a1-4629-840b-ad0b63be6991")
+	)
+	(wire
+		(pts
+			(xy 90.17 100.33) (xy 100.33 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de3b1398-c815-4ead-9eed-517daa0a4e09")
+	)
+	(wire
+		(pts
+			(xy 93.98 138.43) (xy 93.98 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "def937f8-01ac-4fb8-a43c-03ea59c0e0c4")
+	)
+	(wire
+		(pts
+			(xy 129.54 113.03) (xy 129.54 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df16e1ca-d38a-464f-a87f-cd8b20ce1b13")
+	)
+	(wire
+		(pts
+			(xy 168.91 130.81) (xy 168.91 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e02af8ac-17ca-4bc7-9364-85a91aeff54c")
+	)
+	(wire
+		(pts
+			(xy 90.17 110.49) (xy 90.17 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0a3595e-54fc-46fd-a875-2577d081094b")
+	)
+	(wire
+		(pts
+			(xy 234.95 95.25) (xy 226.06 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e144a7dd-974a-4192-aa61-bfbffc2028ca")
+	)
+	(wire
+		(pts
+			(xy 199.39 123.19) (xy 176.53 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e40d4f61-a6a2-4f66-8888-1d4f5d4e6020")
+	)
+	(wire
+		(pts
+			(xy 105.41 93.98) (xy 105.41 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5369dbc-dd49-473a-bff2-e300625fd7dd")
+	)
+	(wire
+		(pts
+			(xy 201.93 74.93) (xy 196.85 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e99cb616-3bd9-4398-9949-f36b009119d5")
+	)
+	(wire
+		(pts
+			(xy 143.51 53.34) (xy 163.83 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea69b64e-8e01-47ee-8f58-66809c267d0d")
+	)
+	(wire
+		(pts
+			(xy 146.05 113.03) (xy 146.05 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec9eee50-ce77-4f98-be2e-0249f90c86e6")
+	)
+	(wire
+		(pts
+			(xy 77.47 110.49) (xy 80.01 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8534795-d905-4b0d-9c95-38a4f9c3f2a1")
+	)
+	(wire
+		(pts
+			(xy 184.15 102.87) (xy 186.69 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f96b8bcc-fd1d-4f57-92b2-a6811449226d")
 	)
 	(text "Headphone Amp"
 		(exclude_from_sim no)
-		(at 117.348 93.726 0)
+		(at 111.76 70.612 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1338,9 +3254,20 @@
 		)
 		(uuid "354e863c-d398-4ddf-a534-ded177aec636")
 	)
-	(hierarchical_label "Vin"
+	(hierarchical_label "Ch2"
 		(shape input)
-		(at 81.28 101.6 180)
+		(at 63.5 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0a2c3a94-5a87-4662-822a-90c2e084c089")
+	)
+	(hierarchical_label "Ch1"
+		(shape input)
+		(at 63.5 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1351,7 +3278,7 @@
 	)
 	(hierarchical_label "+VCC"
 		(shape input)
-		(at 58.42 95.25 180)
+		(at 38.1 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1362,7 +3289,7 @@
 	)
 	(hierarchical_label "-VCC"
 		(shape input)
-		(at 58.42 107.95 180)
+		(at 38.1 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1373,7 +3300,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 58.42 99.06 180)
+		(at 38.1 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1384,18 +3311,40 @@
 	)
 	(hierarchical_label "Vout"
 		(shape output)
-		(at 171.45 104.14 0)
+		(at 250.19 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "91eb4fb6-411d-4160-830b-ff12eb14f3b1")
+		(uuid "66a6ea82-5ca4-4b97-a206-6301e7428bb2")
+	)
+	(hierarchical_label "Ch3"
+		(shape input)
+		(at 63.5 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "adee22ce-e971-40dd-9fbb-b3946b5d4ad4")
+	)
+	(hierarchical_label "Ch4"
+		(shape input)
+		(at 63.5 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "af2c4e19-89d5-4290-abc9-fb3b86f44730")
 	)
 	(symbol
 		(lib_id "power:+VDC")
-		(at 135.89 88.9 0)
+		(at 105.41 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1404,7 +3353,7 @@
 		(fields_autoplaced yes)
 		(uuid "0afc6d48-5ef8-4ad4-b6b9-86db1180a48b")
 		(property "Reference" "#PWR064"
-			(at 135.89 91.44 0)
+			(at 105.41 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1413,7 +3362,7 @@
 			)
 		)
 		(property "Value" "+VDC"
-			(at 135.89 81.28 0)
+			(at 105.41 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1421,7 +3370,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 88.9 0)
+			(at 105.41 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1430,7 +3379,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 88.9 0)
+			(at 105.41 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1439,7 +3388,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+VDC\""
-			(at 135.89 88.9 0)
+			(at 105.41 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1460,116 +3409,56 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 157.48 124.46 0)
+		(lib_id "Transistor_BJT:BC337")
+		(at 166.37 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1fe58320-66d9-415a-9329-ba5e55b4bc2f")
-		(property "Reference" "#PWR?"
-			(at 157.48 130.81 0)
+		(uuid "117b5ed4-ab74-4b11-8c7f-4e154b56feef")
+		(property "Reference" "Q10"
+			(at 171.45 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC337"
+			(at 171.45 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 171.45 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 157.48 129.54 0)
+		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf"
+			(at 166.37 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 157.48 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8140af32-1001-4070-b970-d5492fb3919b")
-		)
-		(instances
-			(project "Mixer 4 Channels with Power Amplifier"
-				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/2120dfdf-fe8b-445e-ae2f-50e2c5d036a2"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 111.76 114.3 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2c6ae976-1807-4c8c-8ef7-e61f03359032")
-		(property "Reference" "C3"
-			(at 111.76 118.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47uF"
-			(at 112.268 120.142 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 115.2652 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 111.76 114.3 0)
+		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, TO-92"
+			(at 166.37 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1578,85 +3467,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "0b68bf13-11e3-4c09-b4e1-b518d3cffe4d")
+			(uuid "ee243562-9357-4ea5-b95d-322ed74e3f51")
+		)
+		(pin "3"
+			(uuid "9c680c6b-9bf1-41b5-b42b-8d341813c106")
 		)
 		(pin "2"
-			(uuid "646827b9-f92d-4106-9806-dfd1f78f1ec5")
+			(uuid "60a39b41-2507-4547-83b7-31d738966de5")
 		)
 		(instances
 			(project "Mixer 4 Channels with Power Amplifier"
 				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/2120dfdf-fe8b-445e-ae2f-50e2c5d036a2"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 157.48 109.22 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2d2cce5c-7414-465e-a021-838e74079cd1")
-		(property "Reference" "C6"
-			(at 163.322 109.474 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at 165.354 112.014 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.4452 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 157.48 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 157.48 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7f9ef4c4-1b20-4fdb-902c-959483d0882a")
-		)
-		(pin "1"
-			(uuid "b57d2f51-2b32-4752-b34a-8275f379301f")
-		)
-		(instances
-			(project "Mixer 4 Channels with Power Amplifier"
-				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/2120dfdf-fe8b-445e-ae2f-50e2c5d036a2"
-					(reference "C6")
+					(reference "Q10")
 					(unit 1)
 				)
 			)
@@ -1664,16 +3486,16 @@
 	)
 	(symbol
 		(lib_id "power:+VDC")
-		(at 63.5 93.98 0)
+		(at 226.06 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3c49bf8a-58e3-4537-947a-82ee12667131")
-		(property "Reference" "#PWR042"
-			(at 63.5 96.52 0)
+		(uuid "1210db5d-bf67-4630-a341-94e5f95ba20d")
+		(property "Reference" "#PWR0113"
+			(at 226.06 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1682,7 +3504,7 @@
 			)
 		)
 		(property "Value" "+VDC"
-			(at 63.5 86.36 0)
+			(at 226.06 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1690,7 +3512,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 93.98 0)
+			(at 226.06 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1699,7 +3521,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 93.98 0)
+			(at 226.06 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1708,7 +3530,887 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+VDC\""
-			(at 63.5 93.98 0)
+			(at 226.06 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8feb5bd-2776-4bd3-9284-fd6684718af6")
+		)
+		(instances
+			(project "Mixer 4 Channels with Power Amplifier"
+				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/2120dfdf-fe8b-445e-ae2f-50e2c5d036a2"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 204.47 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "16431212-186c-4666-8c8c-ad51a8ae68f8")
+		(property "Reference" "C1"
+			(at 204.47 105.156 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "82n"
+			(at 204.216 107.442 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 109.5248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 204.47 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "84623531-765f-450d-af2e-ce00e1c2144f")
+		)
+		(pin "1"
+			(uuid "ce4ffcc6-d779-43ab-8030-785bb19455bc")
+		)
+		(instances
+			(project "Mixer 4 Channels with Power Amplifier"
+				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/2120dfdf-fe8b-445e-ae2f-50e2c5d036a2"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 189.23 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a8212cb-8709-4abb-b997-e11495478a6e")
+		(property "Reference" "Rc2"
+			(at 191.77 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 191.77 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.452 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 189.23 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "edc89486-b9e0-4873-9929-bd06a8106ebc")
+		)
+		(pin "1"
+			(uuid "38c5b830-589e-4f52-8fb5-25a86c8152cd")
+		)
+		(instances
+			(project "Mixer 4 Channels with Power Amplifier"
+				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/2120dfdf-fe8b-445e-ae2f-50e2c5d036a2"
+					(reference "Rc2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 104.14 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1dac30c8-9cee-47ec-b0a2-8ae99c6f3647")
+		(property "Reference" "Rf"
+			(at 101.346 130.048 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2k"
+			(at 104.394 130.556 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 104.14 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a69bdb2e-8c71-49c8-9fb9-68091025fe42")
+		)
+		(pin "2"
+			(uuid "75c41beb-7a30-4e3e-8599-99d653d9c361")
+		)
+		(pin "1"
+			(uuid "50a88d82-d4c4-49aa-a72b-4f0a38d2a70f")
+		)
+		(instances
+			(project "Mixer 4 Channels with Power Amplifier"
+				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/2120dfdf-fe8b-445e-ae2f-50e2c5d036a2"
+					(reference "Rf")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 83.82 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e588af2-209d-49ae-9e2b-379ebc264f2e")
+		(property "Reference" "Ri4"
+			(at 85.344 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.7k"
+			(at 85.0899 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 117.348 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 83.82 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84d62066-7223-45ac-838c-02f34ed1f950")
+		)
+		(pin "2"
+			(uuid "c72e082a-9717-45e7-a2c4-08c9b7c5fcb4")
+		)
+		(instances
+			(project "Mixer 4 Channels with Power Amplifier"
+				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/2120dfdf-fe8b-445e-ae2f-50e2c5d036a2"
+					(reference "Ri4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC327")
+		(at 223.52 110.49 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1fdb5c42-5597-4aa2-8a99-5a9e8f616489")
+		(property "Reference" "Q2"
+			(at 228.6 111.7601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC327"
+			(at 228.6 109.2201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 228.6 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/BC327-D.PDF"
+			(at 223.52 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.8A Ic, 45V Vce, PNP Transistor, TO-92"
+			(at 223.52 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "290dcb92-1b45-46d1-86cc-e23bf45be158")
+		)
+		(pin "1"
+			(uuid "968dcf4f-89a1-43b9-b05d-362bc55b2a90")
+		)
+		(pin "2"
+			(uuid "db780eda-110c-4c36-b261-83a01e6140de")
+		)
+		(instances
+			(project "Mixer 4 Channels with Power Amplifier"
+				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/2120dfdf-fe8b-445e-ae2f-50e2c5d036a2"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 72.39 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20aaca0f-9d85-4f1a-a09f-4fcbf1bf0338")
+		(property "Reference" "SW7"
+			(at 72.39 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 72.39 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 72.39 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5666d406-03f7-4a7c-b972-fc6875ee89e2")
+		)
+		(pin "2"
+			(uuid "bd9541b9-135f-4d45-abac-43d79295fbde")
+		)
+		(instances
+			(project "Mixer 4 Channels with Power Amplifier"
+				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/2120dfdf-fe8b-445e-ae2f-50e2c5d036a2"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-VDC")
+		(at 189.23 78.74 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ab60652-48c2-4e7d-885d-be69f93fe178")
+		(property "Reference" "#PWR0115"
+			(at 189.23 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-VDC"
+			(at 189.23 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-VDC\""
+			(at 189.23 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c410fcb-c470-4538-b51c-10cca1f265d4")
+		)
+		(instances
+			(project "Mixer 4 Channels with Power Amplifier"
+				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/2120dfdf-fe8b-445e-ae2f-50e2c5d036a2"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:OPAMP")
+		(at 107.95 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c4f0565-953a-4768-99bd-c7c4ff785253")
+		(property "Reference" "U6"
+			(at 115.57 97.8214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "${SIM.PARAMS}"
+			(at 115.57 99.7265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec__SUBCKT_Subcircuits"
+			(at 107.95 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Operational amplifier, single, node sequence=1:+ 2:- 3:OUT 4:V+ 5:V-"
+			(at 107.95 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=in+ 2=in- 3=vcc 4=vee 5=out"
+			(at 107.95 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 107.95 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${KICAD8_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 107.95 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp"
+			(at 107.95 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d99f5692-b90d-46c3-a720-47e1458739a1")
+		)
+		(pin "1"
+			(uuid "93955cd3-fc54-4724-88fe-1dc6b713a17c")
+		)
+		(pin "5"
+			(uuid "0112078b-11b7-4fee-931a-d4b4bae4fad8")
+		)
+		(pin "3"
+			(uuid "b1b2b3c8-8c8b-43b0-9dc3-9e5473f65175")
+		)
+		(pin "4"
+			(uuid "e120febd-4f44-4390-be16-572e3a43e916")
+		)
+		(instances
+			(project "Mixer 4 Channels with Power Amplifier"
+				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/2120dfdf-fe8b-445e-ae2f-50e2c5d036a2"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 238.76 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "33e7c5de-8831-4797-9a42-b5d8c4c316da")
+		(property "Reference" "Co"
+			(at 239.014 91.186 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1000u"
+			(at 238.76 99.314 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 94.2848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 238.76 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "062c5d32-53b0-498f-b3bd-0350c7e293df")
+		)
+		(pin "2"
+			(uuid "38e9be62-8ce4-42e3-a830-5da83bfc27dd")
+		)
+		(instances
+			(project "Mixer 4 Channels with Power Amplifier"
+				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/2120dfdf-fe8b-445e-ae2f-50e2c5d036a2"
+					(reference "Co")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 72.39 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37971ded-ca13-45df-9894-34d400897ca5")
+		(property "Reference" "SW5"
+			(at 72.39 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 72.39 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 72.39 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "035c2f70-3b80-4457-b53e-79b10062f883")
+		)
+		(pin "2"
+			(uuid "92b3a522-f815-401f-a247-df58b2a2b56f")
+		)
+		(instances
+			(project "Mixer 4 Channels with Power Amplifier"
+				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/2120dfdf-fe8b-445e-ae2f-50e2c5d036a2"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 129.54 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b364b01-b41d-43cd-897f-912b22dd5ac7")
+		(property "Reference" "Rb"
+			(at 132.08 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "150k"
+			(at 131.826 118.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 127.762 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 129.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bc09cd28-d206-46e4-b55a-af4e228daa89")
+		)
+		(pin "1"
+			(uuid "2940e9a2-b2eb-4af6-8590-044944e41784")
+		)
+		(instances
+			(project "Mixer 4 Channels with Power Amplifier"
+				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/2120dfdf-fe8b-445e-ae2f-50e2c5d036a2"
+					(reference "Rb")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+VDC")
+		(at 43.18 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c49bf8a-58e3-4537-947a-82ee12667131")
+		(property "Reference" "#PWR042"
+			(at 43.18 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VDC"
+			(at 43.18 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+VDC\""
+			(at 43.18 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1729,17 +4431,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:OPAMP")
-		(at 138.43 104.14 0)
+		(lib_id "power:GND")
+		(at 93.98 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3e44fc69-d1f8-4604-9b37-26181ef0c8fd")
-		(property "Reference" "U?"
-			(at 146.05 99.0914 0)
+		(uuid "43f544dd-e2f1-4fe3-a79b-2d1be414a840")
+		(property "Reference" "#PWR04"
+			(at 93.98 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1747,17 +4449,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "${SIM.PARAMS}"
-			(at 146.05 100.9965 0)
+		(property "Value" "GND"
+			(at 93.98 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 104.14 0)
+			(at 93.98 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1765,8 +4466,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec__SUBCKT_Subcircuits"
-			(at 138.43 104.14 0)
+		(property "Datasheet" ""
+			(at 93.98 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1774,71 +4475,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Operational amplifier, single, node sequence=1:+ 2:- 3:OUT 4:V+ 5:V-"
-			(at 138.43 104.14 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 93.98 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Sim.Pins" "1=in+ 2=in- 3=vcc 4=vee 5=out"
-			(at 138.43 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 138.43 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${KICAD8_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 138.43 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "kicad_builtin_opamp"
-			(at 138.43 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "98497395-f630-47b3-81bc-3843dc409d56")
 		)
 		(pin "1"
-			(uuid "ee53aacd-bf1d-4e87-a574-f6a681b92bfe")
-		)
-		(pin "5"
-			(uuid "4fe4bc58-372a-4ef7-8b96-06f66785f818")
-		)
-		(pin "3"
-			(uuid "372cc23d-824b-42f8-9842-d7d20c8842d4")
-		)
-		(pin "4"
-			(uuid "752e06a2-9a78-43d5-b5d4-423d6463a607")
+			(uuid "6eb50a89-43d7-4579-b084-11ec37ecc4f0")
 		)
 		(instances
 			(project "Mixer 4 Channels with Power Amplifier"
 				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/2120dfdf-fe8b-445e-ae2f-50e2c5d036a2"
-					(reference "U?")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -1846,7 +4498,7 @@
 	)
 	(symbol
 		(lib_id "power:-VDC")
-		(at 135.89 130.81 0)
+		(at 105.41 111.76 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1856,7 +4508,7 @@
 		(fields_autoplaced yes)
 		(uuid "45b36aaf-977d-4e65-9877-6996d1ba0e1b")
 		(property "Reference" "#PWR065"
-			(at 135.89 128.27 0)
+			(at 105.41 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1865,7 +4517,7 @@
 			)
 		)
 		(property "Value" "-VDC"
-			(at 135.89 138.43 0)
+			(at 105.41 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1873,7 +4525,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 130.81 0)
+			(at 105.41 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1882,7 +4534,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 130.81 0)
+			(at 105.41 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1891,7 +4543,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-VDC\""
-			(at 135.89 130.81 0)
+			(at 105.41 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1912,16 +4564,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 165.1 104.14 90)
+		(lib_id "Transistor_BJT:BC337")
+		(at 207.01 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "49de1cfd-f582-4f1b-a3f1-6e5d07297c23")
-		(property "Reference" "R7"
-			(at 166.624 101.6 90)
+		(fields_autoplaced yes)
+		(uuid "4bef40c2-e284-4d22-b623-c44f70c5e35d")
+		(property "Reference" "Q6"
+			(at 212.09 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1929,8 +4582,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120@1W"
-			(at 169.164 106.426 90)
+		(property "Value" "BC337"
+			(at 212.09 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1938,26 +4591,29 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 165.1 105.918 90)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 212.09 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf"
+			(at 207.01 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 165.1 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 165.1 104.14 0)
+		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, TO-92"
+			(at 207.01 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1966,15 +4622,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "c4bd5b0d-3a63-485f-8166-8f319d6aa8fd")
+			(uuid "2aca0a0d-1c0e-433b-9fbf-d3e729b5baf2")
+		)
+		(pin "3"
+			(uuid "dbf4f84c-569e-480d-a494-de3a7217dc68")
 		)
 		(pin "2"
-			(uuid "cc434bcd-f0be-447c-b267-3c7bf5dbb0ee")
+			(uuid "9bee5694-309d-4c8d-a9c3-ee02a1e74259")
 		)
 		(instances
 			(project "Mixer 4 Channels with Power Amplifier"
 				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/2120dfdf-fe8b-445e-ae2f-50e2c5d036a2"
-					(reference "R7")
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -1982,7 +4641,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 63.5 100.33 0)
+		(at 43.18 92.71 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1991,7 +4650,7 @@
 		(dnp no)
 		(uuid "4f8a1f0d-d0d6-4be9-bd3c-7df69b5b6ffd")
 		(property "Reference" "#PWR043"
-			(at 63.5 106.68 0)
+			(at 43.18 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2000,7 +4659,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.5 105.41 0)
+			(at 43.18 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2008,7 +4667,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 100.33 0)
+			(at 43.18 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2017,7 +4676,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 100.33 0)
+			(at 43.18 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2026,7 +4685,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 100.33 0)
+			(at 43.18 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2048,15 +4707,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 121.92 101.6 90)
+		(at 143.51 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "72195e72-14eb-4134-8755-6a87cd82069a")
-		(property "Reference" "R2"
-			(at 123.444 99.06 90)
+		(uuid "569fa5d2-7f8d-4528-b023-4a865ab2cc73")
+		(property "Reference" "Rc2"
+			(at 146.05 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2064,8 +4723,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 123.19 104.14 90)
+		(property "Value" "3.9k"
+			(at 146.05 80.772 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2074,7 +4733,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 103.378 90)
+			(at 141.732 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2083,7 +4742,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 101.6 0)
+			(at 143.51 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2092,7 +4751,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 121.92 101.6 0)
+			(at 143.51 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2100,16 +4759,16 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "f1d92deb-5ba6-47e0-8bb6-0cebca1edbc1")
-		)
 		(pin "2"
-			(uuid "a6ece1aa-1360-4ac5-b357-d604586de782")
+			(uuid "bb98958a-47a4-44c7-995d-f8a1d24060f1")
+		)
+		(pin "1"
+			(uuid "4fbf72f3-530f-4b87-9cc8-2c5fd3c43eb7")
 		)
 		(instances
 			(project "Mixer 4 Channels with Power Amplifier"
 				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/2120dfdf-fe8b-445e-ae2f-50e2c5d036a2"
-					(reference "R2")
+					(reference "Rc2")
 					(unit 1)
 				)
 			)
@@ -2117,15 +4776,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 143.51 114.3 90)
+		(at 184.15 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "723f0720-a11c-4a82-9be5-4ed4e109b78e")
-		(property "Reference" "R5"
-			(at 145.034 111.76 90)
+		(uuid "5af5b9de-3261-4ab5-9407-4ab4fec794e7")
+		(property "Reference" "Rf1"
+			(at 186.69 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2133,8 +4792,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22k"
-			(at 145.542 117.094 90)
+		(property "Value" "510k"
+			(at 186.69 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2143,7 +4802,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 116.078 90)
+			(at 182.372 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2152,7 +4811,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 114.3 0)
+			(at 184.15 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2161,7 +4820,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 143.51 114.3 0)
+			(at 184.15 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2169,170 +4828,33 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "39a45c39-845f-45fc-8245-6cd81ed16c8f")
-		)
 		(pin "2"
-			(uuid "878f7798-e79b-4780-a3b9-9b15d0ee08ff")
+			(uuid "6f1fb07e-6281-44ba-a41c-e0de49250e8f")
+		)
+		(pin "1"
+			(uuid "4dac908b-48e9-4c7c-bc90-56784873428b")
 		)
 		(instances
 			(project "Mixer 4 Channels with Power Amplifier"
 				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/2120dfdf-fe8b-445e-ae2f-50e2c5d036a2"
-					(reference "R5")
+					(reference "Rf1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 86.36 101.6 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "79208bc8-f4e6-4e24-bb72-64eb4b52a881")
-		(property "Reference" "C1"
-			(at 86.36 97.282 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.2uF"
-			(at 86.36 105.664 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 102.5652 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 86.36 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 86.36 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f5777e68-46e2-461d-9bf0-35612b2f6e93")
-		)
-		(pin "2"
-			(uuid "f38c30f1-bc70-4c43-b91c-6b8550cdbc5c")
-		)
-		(instances
-			(project "Mixer 4 Channels with Power Amplifier"
-				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/2120dfdf-fe8b-445e-ae2f-50e2c5d036a2"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 119.38 114.3 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8870dbbc-e8f1-4462-9258-95f7359a7cf6")
-		(property "Reference" "R4"
-			(at 120.904 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 120.65 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 116.078 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 119.38 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9e29d2a6-224a-418e-9871-65ae8212e897")
-		)
-		(pin "2"
-			(uuid "109954d2-c4c1-40b4-9e19-88d43a9059ba")
-		)
-		(instances
-			(project "Mixer 4 Channels with Power Amplifier"
-				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/2120dfdf-fe8b-445e-ae2f-50e2c5d036a2"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 106.68 129.54 0)
+		(lib_id "Switch:SW_Push")
+		(at 72.39 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "90e37bc5-bf51-4149-92f7-a409d3fa495c")
-		(property "Reference" "#PWR?"
-			(at 106.68 135.89 0)
+		(uuid "5dec32a3-b58e-4aeb-930e-6954a6247b02")
+		(property "Reference" "SW6"
+			(at 72.39 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2340,8 +4862,441 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 106.68 134.62 0)
+		(property "Value" "SW_Push"
+			(at 72.39 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 72.39 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d457a2d-aadf-4fea-958b-cd344ebeee83")
+		)
+		(pin "2"
+			(uuid "32a7e8fc-394a-4776-8efd-04f00a6be264")
+		)
+		(instances
+			(project "Mixer 4 Channels with Power Amplifier"
+				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/2120dfdf-fe8b-445e-ae2f-50e2c5d036a2"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 83.82 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5fdd7381-141b-4cec-9868-cb4cac149765")
+		(property "Reference" "Ri3"
+			(at 85.344 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.7k"
+			(at 85.0899 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 112.268 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 83.82 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73db6c4e-71f7-4df6-a750-36cfc6b0de59")
+		)
+		(pin "2"
+			(uuid "f8b514e1-4004-40f3-ab35-4bd060d0dcc9")
+		)
+		(instances
+			(project "Mixer 4 Channels with Power Amplifier"
+				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/2120dfdf-fe8b-445e-ae2f-50e2c5d036a2"
+					(reference "Ri3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 83.82 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "658fb5bc-f429-498f-a1d4-f4599e62f56f")
+		(property "Reference" "Ri2"
+			(at 85.344 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.7k"
+			(at 85.0899 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 107.188 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 83.82 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c55c9e0a-74a7-4099-8c8e-f971c1c2d4d0")
+		)
+		(pin "2"
+			(uuid "84eae8ab-12a2-4e76-aa7e-04bfffbec54b")
+		)
+		(instances
+			(project "Mixer 4 Channels with Power Amplifier"
+				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/2120dfdf-fe8b-445e-ae2f-50e2c5d036a2"
+					(reference "Ri2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 129.54 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "673af8c3-ea34-4273-a0ee-983e73987638")
+		(property "Reference" "Rb1"
+			(at 132.08 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "150k"
+			(at 132.08 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 127.762 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 129.54 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "787032a6-224c-4ef6-a614-65267453f287")
+		)
+		(pin "1"
+			(uuid "cb0ba5dc-8fae-46b4-b216-ba5a14ce29f4")
+		)
+		(instances
+			(project "Mixer 4 Channels with Power Amplifier"
+				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/2120dfdf-fe8b-445e-ae2f-50e2c5d036a2"
+					(reference "Rb1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC337")
+		(at 223.52 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c79f74c-e2c6-4ea5-8abd-3d45462d41c4")
+		(property "Reference" "Q1"
+			(at 228.6 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC337"
+			(at 228.6 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 228.6 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf"
+			(at 223.52 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, TO-92"
+			(at 223.52 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33e0c327-21c7-4fa8-85e2-ad59ae45a369")
+		)
+		(pin "3"
+			(uuid "3c2a6db7-2511-4987-8bde-03bd73be9e9a")
+		)
+		(pin "2"
+			(uuid "99a56347-bda5-4a1a-aec4-fa06a131cb34")
+		)
+		(instances
+			(project "Mixer 4 Channels with Power Amplifier"
+				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/2120dfdf-fe8b-445e-ae2f-50e2c5d036a2"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC327")
+		(at 161.29 62.23 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f669fcb-fe38-4d51-b2c0-c6aded108fcf")
+		(property "Reference" "Q12"
+			(at 166.37 63.5001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC327"
+			(at 166.37 60.9601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 166.37 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/BC327-D.PDF"
+			(at 161.29 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.8A Ic, 45V Vce, PNP Transistor, TO-92"
+			(at 161.29 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "39341016-7846-453d-85e6-06a51cc24424")
+		)
+		(pin "1"
+			(uuid "73bf158b-2adf-407f-a757-214ec55bb47b")
+		)
+		(pin "2"
+			(uuid "4c97e05b-7902-4c62-b59a-41c23f97f8f2")
+		)
+		(instances
+			(project "Mixer 4 Channels with Power Amplifier"
+				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/2120dfdf-fe8b-445e-ae2f-50e2c5d036a2"
+					(reference "Q12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-VDC")
+		(at 226.06 134.62 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ae37cc4-c6eb-4eaf-980f-30a1f32296e4")
+		(property "Reference" "#PWR0116"
+			(at 226.06 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-VDC"
+			(at 226.06 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2349,7 +5304,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 129.54 0)
+			(at 226.06 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2358,7 +5313,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 129.54 0)
+			(at 226.06 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2366,8 +5321,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 106.68 129.54 0)
+		(property "Description" "Power symbol creates a global label with name \"-VDC\""
+			(at 226.06 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2376,28 +5331,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "4e68f152-c615-4f08-adb8-d89e5dbdb826")
+			(uuid "974ddaec-b55e-4c9a-8d1c-0f77f93e4bbf")
 		)
 		(instances
 			(project "Mixer 4 Channels with Power Amplifier"
 				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/2120dfdf-fe8b-445e-ae2f-50e2c5d036a2"
-					(reference "#PWR?")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 157.48 116.84 0)
+		(lib_id "Transistor_BJT:BC327")
+		(at 146.05 62.23 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "996b9114-66d6-4d4b-b1f3-3fc4ed527261")
-		(property "Reference" "R6"
-			(at 159.004 116.84 0)
+		(uuid "8d42925d-b961-4e5a-91c4-f0608d20e8e2")
+		(property "Reference" "Q11"
+			(at 140.97 63.5001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2405,8 +5360,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10"
-			(at 159.258 118.872 0)
+		(property "Value" "BC327"
+			(at 140.97 60.9601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2414,8 +5369,29 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 155.702 116.84 90)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 140.97 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/BC327-D.PDF"
+			(at 146.05 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.8A Ic, 45V Vce, PNP Transistor, TO-92"
+			(at 146.05 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2423,34 +5399,19 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 157.48 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 157.48 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "3"
+			(uuid "e4606080-9a77-42f2-9655-e05b82d2d948")
 		)
 		(pin "1"
-			(uuid "2eea12ce-9238-45ba-99ef-442c141d54c4")
+			(uuid "61b48ab9-68d6-47a4-ac47-0f5af40492fa")
 		)
 		(pin "2"
-			(uuid "97609d38-ac9a-415d-bfd3-60535ed4ecd6")
+			(uuid "9d6333cf-263d-400d-8f6f-9b08da29f359")
 		)
 		(instances
 			(project "Mixer 4 Channels with Power Amplifier"
 				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/2120dfdf-fe8b-445e-ae2f-50e2c5d036a2"
-					(reference "R6")
+					(reference "Q11")
 					(unit 1)
 				)
 			)
@@ -2458,7 +5419,226 @@
 	)
 	(symbol
 		(lib_id "power:-VDC")
-		(at 63.5 109.22 0)
+		(at 143.51 83.82 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9bf9fb2c-e25b-46f8-88a1-c4846268d655")
+		(property "Reference" "#PWR0114"
+			(at 143.51 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-VDC"
+			(at 143.51 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-VDC\""
+			(at 143.51 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6523865a-178a-49f8-b336-84222ec15036")
+		)
+		(instances
+			(project "Mixer 4 Channels with Power Amplifier"
+				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/2120dfdf-fe8b-445e-ae2f-50e2c5d036a2"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC337")
+		(at 148.59 123.19 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0570fed-a77d-4aa5-8e5d-044ad7897bfc")
+		(property "Reference" "Q7"
+			(at 143.51 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC337"
+			(at 143.51 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 143.51 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf"
+			(at 148.59 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, TO-92"
+			(at 148.59 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44ae6863-a53e-465c-b36a-4a8309f5fe60")
+		)
+		(pin "3"
+			(uuid "c3d1a7c5-c7e6-40d2-8d4d-ce88ad8dc28d")
+		)
+		(pin "2"
+			(uuid "e6a6b6b3-2ab7-4b66-b9c6-6d67a30be3f9")
+		)
+		(instances
+			(project "Mixer 4 Channels with Power Amplifier"
+				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/2120dfdf-fe8b-445e-ae2f-50e2c5d036a2"
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC327")
+		(at 207.01 74.93 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac29cdd3-7e14-462f-931e-e77a6d69614b")
+		(property "Reference" "Q14"
+			(at 212.09 76.2001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC327"
+			(at 212.09 73.6601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 212.09 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/BC327-D.PDF"
+			(at 207.01 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.8A Ic, 45V Vce, PNP Transistor, TO-92"
+			(at 207.01 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "124bb7dc-a3eb-4f15-80db-701be95c1167")
+		)
+		(pin "1"
+			(uuid "26684001-c950-45e3-b272-aaac0d88c197")
+		)
+		(pin "2"
+			(uuid "d5826491-122a-4911-a618-d942acd6c8ba")
+		)
+		(instances
+			(project "Mixer 4 Channels with Power Amplifier"
+				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/2120dfdf-fe8b-445e-ae2f-50e2c5d036a2"
+					(reference "Q14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-VDC")
+		(at 43.18 101.6 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2468,7 +5648,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad3fd185-5f9f-4c04-806c-dc284fe437d9")
 		(property "Reference" "#PWR044"
-			(at 63.5 106.68 0)
+			(at 43.18 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2477,7 +5657,7 @@
 			)
 		)
 		(property "Value" "-VDC"
-			(at 63.5 116.84 0)
+			(at 43.18 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2485,7 +5665,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 109.22 0)
+			(at 43.18 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2494,7 +5674,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 109.22 0)
+			(at 43.18 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2503,7 +5683,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-VDC\""
-			(at 63.5 109.22 0)
+			(at 43.18 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2525,15 +5705,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 95.25 101.6 90)
+		(at 83.82 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e5f9c9ab-a64e-4cd4-920f-07574a7c9e7a")
-		(property "Reference" "R1"
-			(at 96.774 99.06 90)
+		(uuid "b59d62e3-5571-41ca-8ec4-e7f9a2383dd7")
+		(property "Reference" "Ri1"
+			(at 85.344 95.758 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2541,8 +5721,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 96.52 104.394 90)
+		(property "Value" "2.7k"
+			(at 86.36 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2551,7 +5731,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 103.378 90)
+			(at 83.82 102.108 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2560,7 +5740,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 101.6 0)
+			(at 83.82 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2569,7 +5749,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 95.25 101.6 0)
+			(at 83.82 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2578,15 +5758,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "81364438-0d6b-44d5-9a2d-1b585501f62a")
+			(uuid "3f3a0170-5094-4741-99e8-d62cc8bbea5e")
 		)
 		(pin "2"
-			(uuid "e95ed68c-0de8-443f-b7b0-8c85cfdec36f")
+			(uuid "f08ded33-9c7d-4014-815b-1b2ae78295ca")
 		)
 		(instances
 			(project "Mixer 4 Channels with Power Amplifier"
 				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/2120dfdf-fe8b-445e-ae2f-50e2c5d036a2"
-					(reference "R1")
+					(reference "Ri1")
 					(unit 1)
 				)
 			)
@@ -2594,15 +5774,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 106.68 107.95 0)
+		(at 226.06 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ed676ccd-1118-4f22-be21-77fa736ec767")
-		(property "Reference" "R3"
-			(at 108.204 107.95 0)
+		(fields_autoplaced yes)
+		(uuid "b6aa1d58-133f-47fb-b366-0baedaba16c0")
+		(property "Reference" "Re1"
+			(at 228.6 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2610,8 +5791,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22k"
-			(at 108.204 110.236 0)
+		(property "Value" "0.33"
+			(at 228.6 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2620,7 +5801,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.902 107.95 90)
+			(at 224.282 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2629,7 +5810,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 107.95 0)
+			(at 226.06 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2638,7 +5819,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 106.68 107.95 0)
+			(at 226.06 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2646,51 +5827,126 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "8bf90200-4954-4538-90bc-7f3c35b19375")
-		)
 		(pin "2"
-			(uuid "9f8eb665-fac9-4535-b880-3b501e698303")
+			(uuid "4230ad27-30a1-4287-a806-2a95878144f5")
+		)
+		(pin "1"
+			(uuid "c5d037a4-50f7-4388-87d1-118dc50da43f")
 		)
 		(instances
 			(project "Mixer 4 Channels with Power Amplifier"
 				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/2120dfdf-fe8b-445e-ae2f-50e2c5d036a2"
-					(reference "R3")
+					(reference "Re1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 101.6 107.95 0)
-		(mirror x)
+		(lib_id "Transistor_BJT:BC327")
+		(at 171.45 102.87 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f8f96b2b-0ac9-4a39-a456-f9fe5cfa0608")
-		(property "Reference" "C2"
-			(at 98.806 107.95 0)
+		(uuid "c12cc3a1-bd21-4a42-8e83-e9c7d8d006bd")
+		(property "Reference" "Q9"
+			(at 166.37 104.1401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "220pF"
-			(at 100.838 110.998 0)
+		(property "Value" "BC327"
+			(at 166.37 101.6001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 166.37 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/BC327-D.PDF"
+			(at 171.45 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.8A Ic, 45V Vce, PNP Transistor, TO-92"
+			(at 171.45 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "97aa53ed-a8c1-4916-b31f-231da20042c3")
+		)
+		(pin "1"
+			(uuid "b18f5e3c-94a9-4512-97d3-3e9eec9144ff")
+		)
+		(pin "2"
+			(uuid "f42898a6-c47f-4d28-94f0-e095e3518887")
+		)
+		(instances
+			(project "Mixer 4 Channels with Power Amplifier"
+				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/2120dfdf-fe8b-445e-ae2f-50e2c5d036a2"
+					(reference "Q9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 226.06 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1f9462a-abf8-41ff-8f7e-505c8bfb9a89")
+		(property "Reference" "Re2"
+			(at 228.6 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.33"
+			(at 228.6 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 102.5652 104.14 0)
+			(at 224.282 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2699,7 +5955,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 107.95 0)
+			(at 226.06 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2707,8 +5963,799 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 101.6 107.95 0)
+		(property "Description" "Resistor"
+			(at 226.06 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d22d54c9-2242-4068-b533-6bb45f5e02f0")
+		)
+		(pin "2"
+			(uuid "74d01850-20c9-4be3-b52a-1644646dabf7")
+		)
+		(instances
+			(project "Mixer 4 Channels with Power Amplifier"
+				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/2120dfdf-fe8b-445e-ae2f-50e2c5d036a2"
+					(reference "Re2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 184.15 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2e7c832-de7d-4e88-bd80-cc97e1dc1587")
+		(property "Reference" "Cf"
+			(at 188.214 117.094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1000u"
+			(at 189.738 119.126 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.1152 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 184.15 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf4f7dcd-8e5d-41ca-bb0a-115719dd0c3b")
+		)
+		(pin "2"
+			(uuid "1a7b65f2-c04f-4f08-a585-19c20b1c5359")
+		)
+		(instances
+			(project "Mixer 4 Channels with Power Amplifier"
+				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/2120dfdf-fe8b-445e-ae2f-50e2c5d036a2"
+					(reference "Cf")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 72.39 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3088636-4f15-4ec3-9bd7-1c5d97912614")
+		(property "Reference" "SW4"
+			(at 72.39 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 72.39 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 72.39 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b0da8e2-8b46-470d-9dbe-f9b07c9699c9")
+		)
+		(pin "2"
+			(uuid "6e62069b-749f-4709-99f8-015c88329e1b")
+		)
+		(instances
+			(project "Mixer 4 Channels with Power Amplifier"
+				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/2120dfdf-fe8b-445e-ae2f-50e2c5d036a2"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 93.98 133.35 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d551e001-3a42-4a5a-b89f-67e6286a4a39")
+		(property "Reference" "Rbalance"
+			(at 81.534 134.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470"
+			(at 86.868 136.398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.202 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 93.98 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57cc4ba8-e5e3-453e-b868-fd7588cdda97")
+		)
+		(pin "2"
+			(uuid "b2663d7e-4b91-47c3-bd17-e5472eaf2e56")
+		)
+		(instances
+			(project "Mixer 4 Channels with Power Amplifier"
+				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/2120dfdf-fe8b-445e-ae2f-50e2c5d036a2"
+					(reference "Rbalance")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 196.85 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d6c2172e-69a2-48cb-ad84-830792c2d5c6")
+		(property "Reference" "RVbe1"
+			(at 195.326 89.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 193.802 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 196.85 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3fcbe284-9fdb-4e11-ad81-cce69689a654")
+		)
+		(pin "2"
+			(uuid "f2c14213-02a1-44b3-9b9d-43de44eb27fd")
+		)
+		(pin "1"
+			(uuid "a2617826-0a8c-462f-a447-4cc8e81495c2")
+		)
+		(instances
+			(project "Mixer 4 Channels with Power Amplifier"
+				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/2120dfdf-fe8b-445e-ae2f-50e2c5d036a2"
+					(reference "RVbe1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC327")
+		(at 207.01 62.23 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f51d17cd-eb17-447f-ab98-4c5be7a22670")
+		(property "Reference" "Q4"
+			(at 212.09 63.5001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC327"
+			(at 212.09 60.9601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 212.09 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/BC327-D.PDF"
+			(at 207.01 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.8A Ic, 45V Vce, PNP Transistor, TO-92"
+			(at 207.01 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1bcc6293-9c69-4bcf-a545-c811161a97d5")
+		)
+		(pin "1"
+			(uuid "8eb001b2-49c9-4dea-b8b8-0bba97c0001a")
+		)
+		(pin "2"
+			(uuid "1d13bf16-d4ea-4102-ab5e-5346940facd8")
+		)
+		(instances
+			(project "Mixer 4 Channels with Power Amplifier"
+				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/2120dfdf-fe8b-445e-ae2f-50e2c5d036a2"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC327")
+		(at 143.51 102.87 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f9abda11-e593-4efa-bc33-1b9129556449")
+		(property "Reference" "Q10"
+			(at 148.59 104.1401 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC327"
+			(at 148.59 101.6001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 148.59 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/BC327-D.PDF"
+			(at 143.51 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.8A Ic, 45V Vce, PNP Transistor, TO-92"
+			(at 143.51 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f04ae41a-a3d7-47a2-b2a1-67f727f6be2e")
+		)
+		(pin "1"
+			(uuid "d68b34a3-9aa8-463d-88ab-aaaa0617d648")
+		)
+		(pin "2"
+			(uuid "5cc4a084-1ed0-4072-9358-7af2089717b5")
+		)
+		(instances
+			(project "Mixer 4 Channels with Power Amplifier"
+				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/2120dfdf-fe8b-445e-ae2f-50e2c5d036a2"
+					(reference "Q10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 123.19 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fbfc0bf6-efee-4c1c-8424-0d3bdcb9cb56")
+		(property "Reference" "Ci"
+			(at 123.444 98.806 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1000u"
+			(at 122.936 106.934 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 101.9048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 123.19 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b487d141-4d04-4d77-85c1-9eea7e5c68df")
+		)
+		(pin "2"
+			(uuid "ac6068c9-4250-4a83-a010-22c293d1bfe9")
+		)
+		(instances
+			(project "Mixer 4 Channels with Power Amplifier"
+				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/2120dfdf-fe8b-445e-ae2f-50e2c5d036a2"
+					(reference "Ci")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC327")
+		(at 191.77 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc1321b6-e9c4-4674-8845-f674c22bac71")
+		(property "Reference" "Q5"
+			(at 186.69 63.5001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC327"
+			(at 186.69 60.9601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 186.69 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/BC327-D.PDF"
+			(at 191.77 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.8A Ic, 45V Vce, PNP Transistor, TO-92"
+			(at 191.77 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4e87257c-dc20-4b8a-985e-c0aa64777af3")
+		)
+		(pin "1"
+			(uuid "0159842f-8063-4e94-8f29-03f05bf1ad46")
+		)
+		(pin "2"
+			(uuid "2aa575b9-1372-4800-bca1-ab13ff3ae610")
+		)
+		(instances
+			(project "Mixer 4 Channels with Power Amplifier"
+				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/2120dfdf-fe8b-445e-ae2f-50e2c5d036a2"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC337")
+		(at 207.01 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc308350-6588-466a-82f6-27fa5cb6b6f9")
+		(property "Reference" "Q3"
+			(at 212.09 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC337"
+			(at 212.09 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 212.09 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf"
+			(at 207.01 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, TO-92"
+			(at 207.01 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54ef857a-3544-4fef-aa49-8246f671e492")
+		)
+		(pin "3"
+			(uuid "632607de-f6c5-4af0-a195-6bde12fa65c5")
+		)
+		(pin "2"
+			(uuid "942fe767-7588-4c67-9c7a-6e008e633c11")
+		)
+		(instances
+			(project "Mixer 4 Channels with Power Amplifier"
+				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/2120dfdf-fe8b-445e-ae2f-50e2c5d036a2"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC327")
+		(at 161.29 77.47 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd0dfc86-06d2-4aee-8a4f-2491298a8e2f")
+		(property "Reference" "Q13"
+			(at 166.37 78.7401 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC327"
+			(at 166.37 76.2001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 166.37 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/BC327-D.PDF"
+			(at 161.29 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.8A Ic, 45V Vce, PNP Transistor, TO-92"
+			(at 161.29 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e0b9099f-b32f-492c-820f-4af45e484405")
+		)
+		(pin "1"
+			(uuid "18d0b4f1-6f23-453d-98ec-5eabe311c5e0")
+		)
+		(pin "2"
+			(uuid "813e16eb-b74f-418b-a6a4-4777fb130e53")
+		)
+		(instances
+			(project "Mixer 4 Channels with Power Amplifier"
+				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/2120dfdf-fe8b-445e-ae2f-50e2c5d036a2"
+					(reference "Q13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 190.5 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff2c4a8a-ea4f-458a-8744-e3015d792ae7")
+		(property "Reference" "Rf2"
+			(at 190.246 99.822 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "82k"
+			(at 190.754 105.918 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 104.648 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 190.5 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2717,15 +6764,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "8ef65da1-eb56-4fc9-9865-584eb5653bf8")
+			(uuid "b8ca6d08-0a0a-4586-9b5d-8b9256757071")
 		)
 		(pin "1"
-			(uuid "81888b2b-681c-4d21-bcbb-640aa3901909")
+			(uuid "83dd69cf-73df-4072-8730-7b1896b75857")
 		)
 		(instances
 			(project "Mixer 4 Channels with Power Amplifier"
 				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/2120dfdf-fe8b-445e-ae2f-50e2c5d036a2"
-					(reference "C2")
+					(reference "Rf2")
 					(unit 1)
 				)
 			)

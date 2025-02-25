@@ -893,152 +893,6 @@
 				)
 			)
 		)
-		(symbol "Regulator_Linear:L7912"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -3.81 -3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L7912"
-				(at 0 -3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/c9/16/86/41/c7/2b/45/f2/CD00000450.pdf/files/CD00000450.pdf/jcr:content/translations/en.CD00000450.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Negative 1.5A 35V Linear Regulator, Fixed Output -12V, TO-220/TO-263"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Voltage Regulator 1.5A Negative"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO?220* TO?263*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L7912_0_1"
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "L7912_1_1"
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "VI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "VO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-	)
-	(junction
-		(at 158.75 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0899e746-5a64-40f5-a9cb-8953a458088f")
 	)
 	(junction
 		(at 125.73 77.47)
@@ -1047,7 +901,7 @@
 		(uuid "0d70ddf7-97e4-449c-a9a7-f5daf013b845")
 	)
 	(junction
-		(at 113.03 95.25)
+		(at 113.03 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e161227-710b-43f5-869d-717605d8a8be")
@@ -1059,37 +913,19 @@
 		(uuid "37575f00-4cfa-4c1e-a315-7e59b77b61d2")
 	)
 	(junction
-		(at 125.73 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "43095468-056f-4a46-aa77-47499a2474fb")
-	)
-	(junction
-		(at 113.03 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4bc499aa-e4a7-46ab-a1c5-866220ba5bb1")
-	)
-	(junction
 		(at 151.13 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50d1fd3c-30fc-472c-a8b1-b2065d27cfb3")
 	)
 	(junction
-		(at 151.13 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5679768e-c386-4d42-9918-20a17217e8e0")
-	)
-	(junction
-		(at 151.13 95.25)
+		(at 151.13 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b84c07b-0ad1-4b88-a961-076a98df2ed3")
 	)
 	(junction
-		(at 138.43 95.25)
+		(at 138.43 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "96986e7e-fce3-4762-ab98-bfcd63787e70")
@@ -1101,36 +937,16 @@
 		(uuid "b909f523-aa98-4c37-a51a-df6851f77d56")
 	)
 	(junction
-		(at 158.75 95.25)
+		(at 158.75 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc62f4c9-6378-4f4e-842f-2f8a0de53dc6")
 	)
 	(junction
-		(at 125.73 95.25)
+		(at 125.73 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce8ac808-e775-4c6b-a4a9-1402cad0cb61")
-	)
-	(wire
-		(pts
-			(xy 125.73 100.33) (xy 125.73 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00a939ab-a5a8-481c-a0cb-58dca08ebe94")
-	)
-	(wire
-		(pts
-			(xy 151.13 113.03) (xy 158.75 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10f65f7a-ae9c-4182-a5e3-1d805c90d9f1")
 	)
 	(wire
 		(pts
@@ -1144,17 +960,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 113.03) (xy 113.03 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1791820c-65a1-4b1a-83ce-535b289c8026")
-	)
-	(wire
-		(pts
-			(xy 138.43 95.25) (xy 151.13 95.25)
+			(xy 138.43 106.68) (xy 151.13 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1174,7 +980,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 95.25) (xy 167.64 95.25)
+			(xy 158.75 106.68) (xy 167.64 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1194,33 +1000,13 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 90.17) (xy 151.13 95.25)
+			(xy 125.73 90.17) (xy 125.73 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2d260770-058b-413d-a014-1dfde88dad61")
-	)
-	(wire
-		(pts
-			(xy 158.75 107.95) (xy 158.75 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44719c1c-a913-46ff-88a6-583a421b3c89")
-	)
-	(wire
-		(pts
-			(xy 146.05 113.03) (xy 151.13 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5174e733-6399-4a06-bb4e-4a049101bf69")
+		(uuid "4165557b-ad07-4d80-b3c8-09c072edb0b7")
 	)
 	(wire
 		(pts
@@ -1234,16 +1020,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 100.33) (xy 151.13 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e3be075-87d2-4a46-b889-5d4da8e8d92c")
-	)
-	(wire
-		(pts
 			(xy 151.13 82.55) (xy 151.13 77.47)
 		)
 		(stroke
@@ -1254,23 +1030,13 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 95.25) (xy 113.03 95.25)
+			(xy 104.14 106.68) (xy 113.03 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "73f4fb02-1ace-49a9-9939-67b815d91a85")
-	)
-	(wire
-		(pts
-			(xy 151.13 107.95) (xy 151.13 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a829036-831f-4479-9fd8-74020b162a70")
 	)
 	(wire
 		(pts
@@ -1284,7 +1050,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 95.25) (xy 125.73 95.25)
+			(xy 113.03 106.68) (xy 125.73 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1294,7 +1060,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 95.25) (xy 158.75 95.25)
+			(xy 151.13 106.68) (xy 158.75 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1304,43 +1070,23 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 113.03) (xy 125.73 113.03)
+			(xy 138.43 85.09) (xy 138.43 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a7aa2ee6-e198-469d-a5dd-42ae9da41f81")
+		(uuid "a1643568-2455-465f-a2c2-66d78a0a9909")
 	)
 	(wire
 		(pts
-			(xy 113.03 93.98) (xy 113.03 95.25)
+			(xy 113.03 93.98) (xy 113.03 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "af77ed51-ad62-4305-91c1-6edcc03847ad")
-	)
-	(wire
-		(pts
-			(xy 125.73 90.17) (xy 125.73 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b21bfe50-ad03-4ce9-8bb6-d64e2852f9b3")
-	)
-	(wire
-		(pts
-			(xy 138.43 105.41) (xy 138.43 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2f7b9e8-4a0c-4ff1-8b74-76274c0830c7")
 	)
 	(wire
 		(pts
@@ -1354,43 +1100,23 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 95.25) (xy 138.43 85.09)
+			(xy 158.75 90.17) (xy 158.75 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c2fffb45-3839-4b92-9cf6-d2f3ddf08669")
+		(uuid "d1d969e9-b151-4e8b-a337-40c92ff250fa")
 	)
 	(wire
 		(pts
-			(xy 158.75 113.03) (xy 167.64 113.03)
+			(xy 151.13 90.17) (xy 151.13 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cc10cec5-a429-43a1-90f9-e9d0b2bb913f")
-	)
-	(wire
-		(pts
-			(xy 125.73 113.03) (xy 130.81 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd255664-be9e-443b-b101-7c075114eead")
-	)
-	(wire
-		(pts
-			(xy 113.03 95.25) (xy 113.03 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d143d827-eb6c-49a7-b752-67366c0c1fc3")
+		(uuid "d2ae170b-42cf-4781-b553-012cc9689413")
 	)
 	(wire
 		(pts
@@ -1404,16 +1130,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 90.17) (xy 158.75 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2619f5a-f955-45d0-af1d-2d0c60d9d3ee")
-	)
-	(wire
-		(pts
 			(xy 104.14 77.47) (xy 113.03 77.47)
 		)
 		(stroke
@@ -1424,33 +1140,13 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 95.25) (xy 138.43 95.25)
+			(xy 125.73 106.68) (xy 138.43 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ebc971e6-d6a0-400d-8fdd-0cc99a5beea2")
-	)
-	(wire
-		(pts
-			(xy 125.73 107.95) (xy 125.73 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef24ba43-7de1-408a-9e36-7f2378dd5a60")
-	)
-	(wire
-		(pts
-			(xy 113.03 111.76) (xy 113.03 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f35bc4d4-c97d-45f1-b5b3-872edc345cb2")
 	)
 	(wire
 		(pts
@@ -1462,19 +1158,9 @@
 		)
 		(uuid "faea4a26-a925-4cdb-b6fb-c7fc59cfd4a7")
 	)
-	(wire
-		(pts
-			(xy 158.75 100.33) (xy 158.75 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd4bf932-9437-4a3e-a707-3014587da570")
-	)
 	(hierarchical_label "GND"
 		(shape output)
-		(at 167.64 95.25 0)
+		(at 167.64 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1485,7 +1171,7 @@
 	)
 	(hierarchical_label "Common"
 		(shape input)
-		(at 104.14 95.25 180)
+		(at 104.14 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1493,17 +1179,6 @@
 			(justify right)
 		)
 		(uuid "73013ec9-76b4-4741-bffd-ae1272a6ed98")
-	)
-	(hierarchical_label "-Vdc"
-		(shape input)
-		(at 104.14 113.03 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "88af9216-d662-40d9-8a17-4a5d6c5c1819")
 	)
 	(hierarchical_label "+Vdc"
 		(shape input)
@@ -1516,18 +1191,7 @@
 		)
 		(uuid "a4800c2e-6374-4b05-bfbf-dc743bbb893b")
 	)
-	(hierarchical_label "-VCC"
-		(shape output)
-		(at 167.64 113.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b266fe3b-149c-494d-a93a-bae2fd03a07b")
-	)
-	(hierarchical_label "+VCC"
+	(hierarchical_label "+VCC2"
 		(shape output)
 		(at 167.64 77.47 0)
 		(effects
@@ -1540,174 +1204,6 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 151.13 104.14 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "04e686af-e298-40d9-825b-8433bd322532")
-		(property "Reference" "D4"
-			(at 148.082 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 147.32 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 151.13 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 151.13 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 151.13 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 151.13 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a6d50dfc-9c7d-4bb6-8f1c-b00b136ac1de")
-		)
-		(pin "1"
-			(uuid "7a7a0093-345a-4515-956e-3cc039fd863c")
-		)
-		(instances
-			(project "Fuente de Alimentación"
-				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/45245042-332e-4026-9c47-78a1402474c5"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-			(project "Fuente de Alimentación"
-				(path "/73474962-19a7-474c-a8ee-89a8e49ddff8"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 158.75 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "268928cf-1515-408e-93bb-8059903a4e3b")
-		(property "Reference" "C6"
-			(at 162.56 101.9809 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100u"
-			(at 162.56 104.5209 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 159.7152 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 158.75 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 158.75 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cc7ef859-121c-4011-889d-84ece9b91fa4")
-		)
-		(pin "2"
-			(uuid "f226b3f1-94dc-4fba-819b-9bfff4e0b67b")
-		)
-		(instances
-			(project "Fuente de Alimentación"
-				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/45245042-332e-4026-9c47-78a1402474c5"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-			(project "Fuente de Alimentación"
-				(path "/73474962-19a7-474c-a8ee-89a8e49ddff8"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
 		(at 151.13 86.36 90)
 		(mirror x)
 		(unit 1)
@@ -1716,7 +1212,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "27579fea-3972-44b1-a7f3-052688131f49")
-		(property "Reference" "D3"
+		(property "Reference" "D14"
 			(at 148.082 86.36 90)
 			(effects
 				(font
@@ -1779,169 +1275,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "58cbc462-d128-4d6c-8e9d-a9994e2eb1e8")
+			(uuid "3fa978bf-cf2a-40d0-bbb2-17323e830fbf")
 		)
 		(pin "1"
-			(uuid "b0d705db-36d5-4e80-9a98-37cbdf2c749e")
+			(uuid "a939f461-2dab-4c93-b18f-a42ad58eddcf")
 		)
 		(instances
-			(project "Fuente de Alimentación"
-				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/45245042-332e-4026-9c47-78a1402474c5"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-			(project "Fuente de Alimentación"
-				(path "/73474962-19a7-474c-a8ee-89a8e49ddff8"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 125.73 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2bf3257f-de24-4784-93f4-d899e7e6c3d7")
-		(property "Reference" "C4"
-			(at 129.54 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 129.286 105.918 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 126.6952 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 125.73 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 125.73 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "db3647a7-455f-4610-9559-9153c047bf6e")
-		)
-		(pin "2"
-			(uuid "d40dc55c-bc53-4202-9bb0-7e75ed9af968")
-		)
-		(instances
-			(project ""
-				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/45245042-332e-4026-9c47-78a1402474c5"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/73474962-19a7-474c-a8ee-89a8e49ddff8"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:L7912")
-		(at 138.43 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2e7a06cb-e2e5-47a3-90be-2018595c1010")
-		(property "Reference" "U14"
-			(at 138.43 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "L7912"
-			(at 138.43 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/c9/16/86/41/c7/2b/45/f2/CD00000450.pdf/files/CD00000450.pdf/jcr:content/translations/en.CD00000450.pdf"
-			(at 138.43 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Negative 1.5A 35V Linear Regulator, Fixed Output -12V, TO-220/TO-263"
-			(at 138.43 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8c694679-098e-4ab7-b934-9a4a7b54a213")
-		)
-		(pin "2"
-			(uuid "60a86314-b1df-415e-be13-a92c170d8136")
-		)
-		(pin "3"
-			(uuid "9d9c1065-b2fd-45b9-a52b-6b874ae874dd")
-		)
-		(instances
-			(project ""
-				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/45245042-332e-4026-9c47-78a1402474c5"
-					(reference "U14")
+			(project "Mixer 4 Channels with Power Amplifier"
+				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/4be8ebac-caad-4f2f-80aa-ca730026f0a1"
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -2002,10 +1344,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "e00f04ff-2f1e-449f-8c3b-dc5f4e5e3695")
+			(uuid "09ebd19a-cb81-45d1-8914-242ce7ef6d44")
 		)
 		(pin "2"
-			(uuid "e64ca109-4774-4c28-b9cc-98b56fd86cf6")
+			(uuid "b9aa1eea-32cf-4f7e-b8ac-122c4da6b23f")
 		)
 		(instances
 			(project "Mixer 4 Channels with Power Amplifier"
@@ -2013,74 +1355,8 @@
 					(reference "D1")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 113.03 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4c62f6ba-7cc8-45f5-80eb-d651098d9872")
-		(property "Reference" "R_LED2"
-			(at 115.57 99.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "680"
-			(at 115.57 101.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.252 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 113.03 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d940e9dd-69f7-4547-9fef-504a0a16ce1d")
-		)
-		(pin "1"
-			(uuid "11d3091a-cc35-489f-b704-247557f3e4e8")
-		)
-		(instances
-			(project ""
-				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/45245042-332e-4026-9c47-78a1402474c5"
-					(reference "R_LED2")
+				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/4be8ebac-caad-4f2f-80aa-ca730026f0a1"
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -2095,7 +1371,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4d34ceee-724f-4f98-8800-d1436303b68e")
-		(property "Reference" "C3"
+		(property "Reference" "C9"
 			(at 129.286 86.36 0)
 			(effects
 				(font
@@ -2141,21 +1417,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "739f2794-5a1b-43ab-9f5a-6d3baa2a210d")
+			(uuid "da38aeb2-1d4a-49eb-adb9-133432ec4048")
 		)
 		(pin "2"
-			(uuid "b8d5a0b3-451d-4586-abc1-9b9a6fff4f13")
+			(uuid "a34f2312-788d-4149-b98a-e524c651e6c7")
 		)
 		(instances
-			(project ""
-				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/45245042-332e-4026-9c47-78a1402474c5"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/73474962-19a7-474c-a8ee-89a8e49ddff8"
-					(reference "C3")
+			(project "Mixer 4 Channels with Power Amplifier"
+				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/4be8ebac-caad-4f2f-80aa-ca730026f0a1"
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -2171,7 +1441,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fd9259e-9679-4193-817c-a04cb97d6903")
-		(property "Reference" "U13"
+		(property "Reference" "U1"
 			(at 138.43 71.12 0)
 			(effects
 				(font
@@ -2218,18 +1488,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "094044d0-f1f1-4b35-90cc-133c5dfb0247")
+			(uuid "c07680cb-a0b3-4607-b53e-59f36415c869")
 		)
 		(pin "1"
-			(uuid "1196e92a-861e-4930-b2b5-d459ee366e9f")
+			(uuid "cade3247-b71d-4051-b6f4-8a0837111de0")
 		)
 		(pin "3"
-			(uuid "9d78d816-3a01-49cc-b20b-2b9185f34414")
+			(uuid "8a0808ab-f616-43a4-8b06-36d0324379ea")
 		)
 		(instances
-			(project ""
-				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/45245042-332e-4026-9c47-78a1402474c5"
-					(reference "U13")
+			(project "Mixer 4 Channels with Power Amplifier"
+				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/4be8ebac-caad-4f2f-80aa-ca730026f0a1"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -2245,7 +1515,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6fd4f64-5cae-4546-9f56-9bf5a250dd7d")
-		(property "Reference" "R_LED1"
+		(property "Reference" "R_LED3"
 			(at 115.57 81.2799 0)
 			(effects
 				(font
@@ -2291,15 +1561,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "5fa0eb74-4c30-4685-ba42-9ab94a2ca31b")
+			(uuid "b254856d-ed65-497f-8e57-b257ae3fea9e")
 		)
 		(pin "1"
-			(uuid "404b85e2-64f8-4ff4-ba73-a27571e8ad2b")
+			(uuid "db707bc4-d514-4ece-a25d-25785cf45c9a")
 		)
 		(instances
-			(project ""
-				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/45245042-332e-4026-9c47-78a1402474c5"
-					(reference "R_LED1")
+			(project "Mixer 4 Channels with Power Amplifier"
+				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/4be8ebac-caad-4f2f-80aa-ca730026f0a1"
+					(reference "R_LED3")
 					(unit 1)
 				)
 			)
@@ -2314,7 +1584,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d6f7e26b-e6d7-48a6-93a3-ed5a6720e8af")
-		(property "Reference" "C5"
+		(property "Reference" "C11"
 			(at 162.56 84.2009 0)
 			(effects
 				(font
@@ -2360,91 +1630,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "a724503f-36f7-4d4f-864e-37c6aa2f6fdf")
+			(uuid "84d976ba-a26b-4523-9fa5-852b299e9036")
 		)
 		(pin "2"
-			(uuid "8b79061e-8395-45d9-ae9b-2e355aa6f1af")
+			(uuid "75c68b63-8daa-4e50-8c7d-988c2d73d433")
 		)
 		(instances
-			(project "Fuente de Alimentación"
-				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/45245042-332e-4026-9c47-78a1402474c5"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-			(project "Fuente de Alimentación"
-				(path "/73474962-19a7-474c-a8ee-89a8e49ddff8"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 113.03 107.95 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f81e42d9-14ef-4264-afc3-36624b9cfcda")
-		(property "Reference" "D2"
-			(at 116.84 108.2674 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 116.84 110.8074 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 113.03 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5077d882-7392-4520-b1a0-81ad9c7f9eb8")
-		)
-		(pin "2"
-			(uuid "0f63d032-b2a0-4147-b545-a34251f94175")
-		)
-		(instances
-			(project ""
-				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/45245042-332e-4026-9c47-78a1402474c5"
-					(reference "D2")
+			(project "Mixer 4 Channels with Power Amplifier"
+				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/4be8ebac-caad-4f2f-80aa-ca730026f0a1"
+					(reference "C11")
 					(unit 1)
 				)
 			)

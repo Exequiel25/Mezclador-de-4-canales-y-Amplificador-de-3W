@@ -1056,6 +1056,18 @@
 		(color 0 0 0 0)
 		(uuid "08025b46-17e2-4f6c-9434-2a93730820be")
 	)
+	(junction
+		(at 92.71 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2bf0bb2f-08cb-43d8-9598-b2f5ce416903")
+	)
+	(junction
+		(at 95.25 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73a41d42-4e01-46c5-88ce-4683a7ad2774")
+	)
 	(wire
 		(pts
 			(xy 180.34 91.44) (xy 193.04 91.44)
@@ -1098,7 +1110,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 87.63) (xy 101.6 87.63)
+			(xy 90.17 87.63) (xy 92.71 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1118,6 +1130,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 124.46) (xy 121.92 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dc3963d-5477-49f0-b730-959b19b624fa")
+	)
+	(wire
+		(pts
 			(xy 63.5 92.71) (xy 58.42 92.71)
 		)
 		(stroke
@@ -1125,6 +1147,16 @@
 			(type default)
 		)
 		(uuid "1e723f5c-5f3e-4016-bc40-022a97944c03")
+	)
+	(wire
+		(pts
+			(xy 125.73 116.84) (xy 125.73 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f69c98f-9df0-4bad-a864-1476f01571be")
 	)
 	(wire
 		(pts
@@ -1208,6 +1240,26 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 118.11) (xy 121.92 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40b10b3c-31fc-474e-afea-726848388ca2")
+	)
+	(wire
+		(pts
+			(xy 92.71 87.63) (xy 101.6 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45d8aaf5-99a4-46db-87d7-0f3606311fa1")
+	)
+	(wire
+		(pts
 			(xy 224.79 91.44) (xy 224.79 90.17)
 		)
 		(stroke
@@ -1218,6 +1270,36 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 124.46) (xy 101.6 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cb71bee-13b9-41d3-b9e6-f7b8212f2f58")
+	)
+	(wire
+		(pts
+			(xy 95.25 82.55) (xy 95.25 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d6dd5e2-97a7-4023-9255-1a8fc4679772")
+	)
+	(wire
+		(pts
+			(xy 95.25 82.55) (xy 101.6 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f35f67a-5c86-4f9b-9e82-2d18de07f270")
+	)
+	(wire
+		(pts
 			(xy 180.34 86.36) (xy 193.04 86.36)
 		)
 		(stroke
@@ -1225,6 +1307,16 @@
 			(type default)
 		)
 		(uuid "6ab9182d-ae61-4d6b-8b7f-315bbd5227f7")
+	)
+	(wire
+		(pts
+			(xy 125.73 125.73) (xy 125.73 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77523d43-4cbc-4340-9107-5f494b998c24")
 	)
 	(wire
 		(pts
@@ -1288,6 +1380,26 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 87.63) (xy 92.71 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0855dc0-0378-4a40-a3db-44a5e1fb1850")
+	)
+	(wire
+		(pts
+			(xy 95.25 118.11) (xy 101.6 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf2af6ac-4b27-4672-9f99-2e6337018dac")
+	)
+	(wire
+		(pts
 			(xy 66.04 93.98) (xy 69.85 93.98)
 		)
 		(stroke
@@ -1308,7 +1420,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 82.55) (xy 101.6 82.55)
+			(xy 90.17 82.55) (xy 95.25 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1350,7 +1462,7 @@
 	)
 	(rectangle
 		(start 48.26 67.31)
-		(end 149.86 109.22)
+		(end 149.86 137.16)
 		(stroke
 			(width 0)
 			(type dash)
@@ -2027,6 +2139,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 125.73 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f462aad-33a2-49ca-a75c-7b5de07ed817")
+		(property "Reference" "#PWR0116"
+			(at 125.73 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.73 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 125.73 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9369d4e-6de5-462b-a643-8e80cf7d188b")
+		)
+		(instances
+			(project "Mixer 4 Channels with Power Amplifier"
+				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b"
+					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+VDC")
 		(at 201.93 81.28 0)
 		(unit 1)
@@ -2290,6 +2468,72 @@
 			(project "Mixer 4 Channels with Power Amplifier"
 				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+VDC")
+		(at 125.73 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb902892-c605-43c9-95d8-fa6a099abcbc")
+		(property "Reference" "#PWR044"
+			(at 125.73 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VDC2"
+			(at 125.73 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+VDC\""
+			(at 125.73 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78c634c2-41d6-4cfb-a95e-00c6d84ba667")
+		)
+		(instances
+			(project "Mixer 4 Channels with Power Amplifier"
+				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -2589,6 +2833,85 @@
 			(project "Mixer 4 Channels with Power Amplifier"
 				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b"
 					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 114.3)
+		(size 20.32 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4be8ebac-caad-4f2f-80aa-ca730026f0a1")
+		(property "Sheetname" "Regulador2"
+			(at 101.6 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "subnets/Regulador.kicad_sch"
+			(at 101.6 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "+VCC2" output
+			(at 121.92 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bc1178f4-faaa-4e57-9142-1f18a347e4aa")
+		)
+		(pin "GND" output
+			(at 121.92 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "37915395-b6cc-42bc-9e7f-e387f183dc43")
+		)
+		(pin "+Vdc" input
+			(at 101.6 118.11 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "eb8a545d-1a54-4704-95c4-04498dff32f0")
+		)
+		(pin "Common" input
+			(at 101.6 124.46 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2ab43e21-8c9d-4d19-a322-dfa340671833")
+		)
+		(instances
+			(project "Mixer 4 Channels with Power Amplifier"
+				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b"
+					(page "14")
 				)
 			)
 		)

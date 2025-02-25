@@ -2937,7 +2937,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "100p"
 			(at 167.386 101.092 0)
 			(effects
 				(font

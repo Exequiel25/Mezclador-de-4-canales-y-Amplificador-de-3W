@@ -1212,7 +1212,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "27579fea-3972-44b1-a7f3-052688131f49")
-		(property "Reference" "D14"
+		(property "Reference" "D?"
 			(at 148.082 86.36 90)
 			(effects
 				(font
@@ -1282,6 +1282,10 @@
 		)
 		(instances
 			(project "Mixer 4 Channels with Power Amplifier"
+				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/45245042-332e-4026-9c47-78a1402474c5"
+					(reference "D?")
+					(unit 1)
+				)
 				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/4be8ebac-caad-4f2f-80aa-ca730026f0a1"
 					(reference "D14")
 					(unit 1)
@@ -1371,7 +1375,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4d34ceee-724f-4f98-8800-d1436303b68e")
-		(property "Reference" "C9"
+		(property "Reference" "C?"
 			(at 129.286 86.36 0)
 			(effects
 				(font
@@ -1424,6 +1428,10 @@
 		)
 		(instances
 			(project "Mixer 4 Channels with Power Amplifier"
+				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/45245042-332e-4026-9c47-78a1402474c5"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/4be8ebac-caad-4f2f-80aa-ca730026f0a1"
 					(reference "C9")
 					(unit 1)
@@ -1441,7 +1449,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fd9259e-9679-4193-817c-a04cb97d6903")
-		(property "Reference" "U1"
+		(property "Reference" "U?"
 			(at 138.43 71.12 0)
 			(effects
 				(font
@@ -1498,6 +1506,10 @@
 		)
 		(instances
 			(project "Mixer 4 Channels with Power Amplifier"
+				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/45245042-332e-4026-9c47-78a1402474c5"
+					(reference "U?")
+					(unit 1)
+				)
 				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/4be8ebac-caad-4f2f-80aa-ca730026f0a1"
 					(reference "U1")
 					(unit 1)
@@ -1515,7 +1527,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6fd4f64-5cae-4546-9f56-9bf5a250dd7d")
-		(property "Reference" "R_LED3"
+		(property "Reference" "R_LED?"
 			(at 115.57 81.2799 0)
 			(effects
 				(font
@@ -1568,6 +1580,10 @@
 		)
 		(instances
 			(project "Mixer 4 Channels with Power Amplifier"
+				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/45245042-332e-4026-9c47-78a1402474c5"
+					(reference "R_LED?")
+					(unit 1)
+				)
 				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/4be8ebac-caad-4f2f-80aa-ca730026f0a1"
 					(reference "R_LED3")
 					(unit 1)
@@ -1584,7 +1600,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d6f7e26b-e6d7-48a6-93a3-ed5a6720e8af")
-		(property "Reference" "C11"
+		(property "Reference" "C?"
 			(at 162.56 84.2009 0)
 			(effects
 				(font
@@ -1637,6 +1653,10 @@
 		)
 		(instances
 			(project "Mixer 4 Channels with Power Amplifier"
+				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/45245042-332e-4026-9c47-78a1402474c5"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/4be8ebac-caad-4f2f-80aa-ca730026f0a1"
 					(reference "C11")
 					(unit 1)

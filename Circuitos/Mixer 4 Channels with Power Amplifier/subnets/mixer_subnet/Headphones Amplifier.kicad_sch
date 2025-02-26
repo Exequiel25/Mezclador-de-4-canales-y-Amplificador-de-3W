@@ -3193,6 +3193,73 @@
 		(uuid "af2c4e19-89d5-4290-abc9-fb3b86f44730")
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 184.15 116.84 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "032add20-25a8-4925-8bb6-2bfadaed359c")
+		(property "Reference" "Cf"
+			(at 188.722 115.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15n"
+			(at 189.23 117.856 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 183.1848 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 184.15 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "654f025f-9455-4f78-8f91-68371b02f6b0")
+		)
+		(pin "1"
+			(uuid "6d740341-a25f-4b3a-8abc-65e5be6b9749")
+		)
+		(instances
+			(project "Mixer 4 Channels with Power Amplifier"
+				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/2120dfdf-fe8b-445e-ae2f-50e2c5d036a2"
+					(reference "Cf")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+VDC")
 		(at 105.41 93.98 0)
 		(unit 1)
@@ -3419,7 +3486,7 @@
 				)
 			)
 		)
-		(property "Value" "82n"
+		(property "Value" "47n"
 			(at 204.216 107.442 90)
 			(effects
 				(font
@@ -5704,73 +5771,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 184.15 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c2e7c832-de7d-4e88-bd80-cc97e1dc1587")
-		(property "Reference" "Cf"
-			(at 188.214 117.094 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100u"
-			(at 189.738 119.126 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.1152 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 184.15 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 184.15 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bf4f7dcd-8e5d-41ca-bb0a-115719dd0c3b")
-		)
-		(pin "2"
-			(uuid "1a7b65f2-c04f-4f08-a585-19c20b1c5359")
-		)
-		(instances
-			(project "Mixer 4 Channels with Power Amplifier"
-				(path "/0e2446e7-fd41-47c0-87b8-110c51786f7b/7f4f2712-287c-4d36-933e-3ea06b7ca144/2120dfdf-fe8b-445e-ae2f-50e2c5d036a2"
-					(reference "Cf")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 72.39 100.33 0)
 		(unit 1)
@@ -6216,7 +6216,7 @@
 				)
 			)
 		)
-		(property "Value" "1000u"
+		(property "Value" "1u"
 			(at 122.936 106.934 90)
 			(effects
 				(font

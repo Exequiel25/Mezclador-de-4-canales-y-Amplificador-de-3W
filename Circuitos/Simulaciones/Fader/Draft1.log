@@ -1,0 +1,20 @@
+LTspice 24.1.7 for Windows
+Circuit: E:\UTN\EA2\Proyecto final\Circuitos\Simulaciones\Fader\Draft1.net
+Start Time: Thu May  1 15:06:52 2025
+solver = Normal
+Maximum thread count: 32
+tnom = 27
+temp = 27
+method = modified trap
+Direct Newton iteration for .op point succeeded.
+.step v=8
+.step v=9
+.step v=10
+.step v=11
+Total elapsed time: 0.416 seconds.
+
+Files loaded:
+E:\UTN\EA2\Proyecto final\Circuitos\Simulaciones\Fader\Draft1.net
+C:\Users\Exequiel\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\Users\Exequiel\AppData\Local\LTspice\lib\cmp\standard.bjt
+
